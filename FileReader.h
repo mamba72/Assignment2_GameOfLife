@@ -1,3 +1,10 @@
+/*
+Stephen White
+002323381
+stwhite@chapman.edu
+Data Structures Section 1
+Assignment 2 Game of Life
+*/
 #include <iostream>
 #include <fstream>
 

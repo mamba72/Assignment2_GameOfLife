@@ -1,0 +1,168 @@
+Generation Number: 0
+X - - - - - - 
+- - X X - - - 
+X X - - - - - 
+- - - - - - - 
+X X X X X X X 
+
+Next Generation Population: 16
+Generation Number: 1
+X - - - - X - 
+X - X - - - - 
+- X X - - - - 
+- - - X X X - 
+X X X X X X X 
+
+Next Generation Population: 10
+Generation Number: 2
+- - - - - X - 
+X - X - - - X 
+- X X - X - - 
+- - - - - - - 
+X X X - - - - 
+
+Next Generation Population: 13
+Generation Number: 3
+- - X - - - - 
+X - X X - X X 
+X X X X - - - 
+X - - X - - - 
+- X - - - - - 
+
+Next Generation Population: 11
+Generation Number: 4
+X - X X - - X 
+X - - - X - X 
+- - - - - - - 
+X - - X - - - 
+- X X - - - - 
+
+Next Generation Population: 14
+Generation Number: 5
+- - X X - X X 
+X X - X - X X 
+X - - - - - X 
+- X X - - - - 
+- - - - - - X 
+
+Next Generation Population: 13
+Generation Number: 6
+- X X X - - - 
+- X - X - - - 
+- - - - - X - 
+- X - - - - X 
+X X - X - X X 
+
+Next Generation Population: 14
+Generation Number: 7
+- - - X - - X 
+- X - X X - - 
+X - X - - - - 
+- X X - X - - 
+- - - X X X X 
+
+Next Generation Population: 15
+Generation Number: 8
+X - - - - - X 
+X X - X X - - 
+X - - - X - - 
+X X X - X - X 
+X - - - - - X 
+
+Next Generation Population: 7
+Generation Number: 9
+- - - - - X - 
+- X - X X X - 
+- - - - X - - 
+- - - X - - - 
+- - - - - - - 
+
+Next Generation Population: 5
+Generation Number: 10
+- - - - - X - 
+- - - X - X - 
+- - X - - X - 
+- - - - - - - 
+- - - - - - - 
+
+Next Generation Population: 4
+Generation Number: 11
+- - - - X - - 
+- - - - - X X 
+- - - - X - - 
+- - - - - - - 
+- - - - - - - 
+
+Next Generation Population: 4
+Generation Number: 12
+- - - - - X - 
+- - - - X X - 
+- - - - - X - 
+- - - - - - - 
+- - - - - - - 
+
+Next Generation Population: 7
+Generation Number: 13
+- - - - X X - 
+- - - - X X X 
+- - - - X X - 
+- - - - - - - 
+- - - - - - - 
+
+Next Generation Population: 6
+Generation Number: 14
+- - - - X - X 
+- - - X - - X 
+- - - - X - X 
+- - - - - - - 
+- - - - - - - 
+
+Next Generation Population: 6
+Generation Number: 15
+- - - - - X - 
+X - - X X - X 
+- - - - - X - 
+- - - - - - - 
+- - - - - - - 
+
+Next Generation Population: 8
+Generation Number: 16
+- - - - X X X 
+- - - - X - X 
+- - - - X X X 
+- - - - - - - 
+- - - - - - - 
+
+Next Generation Population: 8
+Generation Number: 17
+- - - - X - X 
+X - - X - - - 
+- - - - X - X 
+- - - - - X - 
+- - - - - X - 
+
+Next Generation Population: 16
+Generation Number: 18
+- - - - X X X 
+X - - X X - X 
+- - - - X X X 
+- - - - X X X 
+- - - - X X X 
+
+Next Generation Population: 6
+Generation Number: 19
+- - - - - - - 
+X - - X - - - 
+- - - - - - - 
+X - - X - - - 
+X - - X - - - 
+
+Next Generation Population: 0
+Generation Number: 20
+- - - - - - - 
+- - - - - - - 
+- - - - - - - 
+- - - - - - - 
+- - - - - - - 
+
+This is the last generation.

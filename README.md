@@ -14,6 +14,9 @@ Data Structures Game of Life assignment
 2. http://www.cplusplus.com/reference/cstdlib/rand/
 3. https://stackoverflow.com/questions/4442658/c-parse-int-from-string
 4. http://forums.codeguru.com/showthread.php?320724-how-to-reset-quot-getline(File-string)-quot
-5. 
+5. http://www.cplusplus.com/reference/string/stof/
+6. http://www.cplusplus.com/doc/tutorial/exceptions/
+7. https://stackoverflow.com/questions/21257544/c-wait-for-user-input/21257728
+8. 
 
 # Instructions:

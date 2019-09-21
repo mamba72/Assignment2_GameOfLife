@@ -1,3 +1,10 @@
+/*
+Stephen White
+002323381
+stwhite@chapman.edu
+Data Structures Section 1
+Assignment 2 Game of Life
+*/
 #include <iostream>
 #include "GameBoard.h"
 using namespace std;
@@ -33,7 +40,7 @@ GameBoard::GameBoard(int height, int width, int gameMode, int**& startingPos, in
 	this->dimentions[0] = height;
 	this->dimentions[1] = width;
 	this->gameMode = gameMode;
-
+	
 	InitializeGrid(startingPos, startingPop);
 }
 
@@ -104,7 +111,7 @@ void GameBoard::InitializeGridRandomly(float initDensity)
 
 void GameBoard::InitializeGrid(int**& startCoords, int startPop)
 {
-
+	this->totalCells = startPop;
 	grid = new Cell * [dimentions[0]];
 	//create the inner arrays
 	for (int row = 0; row < dimentions[0]; ++row)
@@ -116,9 +123,11 @@ void GameBoard::InitializeGrid(int**& startCoords, int startPop)
 		{
 			//initialize the cells to the default values
 			grid[row][col].coordinates[0] = row;
-			grid[row][col].coordinates[0] = col;
+			grid[row][col].coordinates[1] = col;
 			grid[row][col].gameMode = this->gameMode;
 			grid[row][col].isEmpty = true;
+			grid[row][col].boardHeight = dimentions[0];
+			grid[row][col].boardWidth = dimentions[1];
 		}
 	}
 
@@ -150,19 +159,21 @@ bool GameBoard::IsPositionEmpty(int xCor, int yCor)
 }
 
 //this function simply prints the whole board
-void GameBoard::PrintGrid()
+string GameBoard::PrintGrid()
 {
+	string outputStr = "";
 	for (int row = 0; row < dimentions[0]; ++row)
 	{
 		for (int col = 0; col < dimentions[1]; ++col)
 		{
-			cout << grid[row][col].GetSymbol() << " ";
+			outputStr += grid[row][col].GetSymbol() + " ";
 		}
 
-		cout << endl;
+		outputStr += "\n";
 	}
 
-	cout << "Finished printing board." << endl;
+	//cout << "Finished printing board." << endl;
+	return outputStr;
 }
 
 //create a new game object
@@ -170,7 +181,7 @@ int** GameBoard::GetNextGeneration()
 {
 	int numberNext = GetNextGenerationPopulation();
 
-	cout << "Number of cells in next gen: " << numberNext << endl;
+	//cout << "Number of cells in next gen: " << numberNext << endl;
 
 	//now go through the grid finding all the coordinates of the next generation's occupied cells
 	int** nextStarterPos = new int* [numberNext];
@@ -215,7 +226,7 @@ int GameBoard::GetNextGenerationPopulation()
 		for (int col = 0; col < dimentions[1]; ++col)
 		{
 			int numberNeighbors = grid[row][col].NumNeighbors(grid, dimentions[0], dimentions[1]);
-			cout << "Number of neighbors: " << numberNeighbors << "\tIs Cell Occupied: " << grid[row][col].isEmpty << endl;
+			//cout << "Number of neighbors: " << numberNeighbors << "\tIs Cell Occupied: " << grid[row][col].isEmpty << endl;
 			if (numberNeighbors == 2 && grid[row][col].isEmpty == false)
 				++numberNext;
 			else if (numberNeighbors == 3)
