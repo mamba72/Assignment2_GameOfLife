@@ -171,6 +171,8 @@ int main(int argc, char** argv)
 		catch (runtime_error e)
 		{
 			cout << "There was a problem. Your error message: " << e.what() << endl;
+			cout << "You must enter a valid file name.\n";
+			cout << "This could also occur if the file did not follow the standard layout.\n";
 			return 1;
 		}
 	}

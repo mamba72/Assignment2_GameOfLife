@@ -56,6 +56,11 @@ void FileReader::ReadFile(string fileName)
 	this->height = stoi((string)fileLines[0]); //parse height. Both functions will throw exceptions if it cannot be parsed
 	this->width = stoi((string)fileLines[1]); //parse width. 
 
+	if (this->height != lineCount - 2 || IsWidthCorrect(fileLines, lineCount, width))
+	{
+		throw runtime_error("The file does not follow the correct standard layout.");
+	}
+
 	//now read how many cells are in the provided grid
 	int totalPop = 0;
 	for (int i = 2; i < lineCount; ++i)
@@ -99,4 +104,16 @@ void FileReader::ReadFile(string fileName)
 	}
 	
 	
+}
+
+//determines if all the lines in the file are the correct width
+bool FileReader::IsWidthCorrect(string* &fileLines, int lineCount, int width)
+{
+	for (int i = 2; i < lineCount; ++i)
+	{
+		if (fileLines[i].length() != width)
+			return false;
+	}
+
+	return true;
 }

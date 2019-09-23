@@ -17,6 +17,7 @@ public:
 
 	//functions
 	void ReadFile(string fileName);
+	bool IsWidthCorrect(string*& fileLines, int lineCount, int width);
 
 	//member vars
 	int height;
