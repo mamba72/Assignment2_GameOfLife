@@ -32,27 +32,16 @@ Cell::~Cell()
 
 int Cell::NumNeighbors(Cell** &board, int height, int width)
 {
-
-
 	int totalNeighbors = 0;
-	//1 is classic mode
-	//if (gameMode == 1)
-	//{
-		//cout << "Cell's coordinates: (" << coordinates[1] << ", " << coordinates[0] << ")\n";
-
 		//check straight right
 		if (IsNeighbor(coordinates[0], coordinates[1] + 1, board))
 		{
 			totalNeighbors++;
-			//cout << "\tFound a neighbor stright right at coordinates " << coordinates[1] << ", " << coordinates[0] - 1 << endl;
 		}
-			
-
 		//right and up
 		if (IsNeighbor(coordinates[0] + 1, coordinates[1] + 1, board))
 		{
 			totalNeighbors++;
-			//cout << "\tFound a neighbor right and up at coordinates " << coordinates[1]+1 << ", " << coordinates[0]-1 << endl;
 		}
 
 		//directly up

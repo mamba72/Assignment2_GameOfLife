@@ -5,12 +5,16 @@ stwhite@chapman.edu
 Data Structures Section 1
 Assignment 2 Game of Life
 */
+#include <chrono>//is required for pause to give me the number of seconds i want
+#include <thread>//to pause/sleep the thread
 #include <fstream>
 #include <iostream>
 //#include "Cell.h"
 #include "GameBoard.h"
 #include <time.h>
 
+using namespace std::this_thread;
+using namespace std::chrono; // nanoseconds, system_clock, seconds
 
 using namespace std;
 
@@ -133,24 +137,31 @@ int main(int argc, char** argv)
 		gameMode = 1;
 	}
 
-	bool stepByStep = false;
-	cout << "Would you like to slow the program down so you can see each step? (y/n)\n";
-	cout << "(This means you will have to press ENTER between every generation)\n";
+	cout << "To watch each generation you have 3 options:\n1. A short pause in between.\n2. Pressing enter between each generation.\n3. Just run and then output to a file.\n";
+	cout << "(you must enter the number of your choice)\n";
+	int nextGenChoice = 0;
 	cin >> answer;
-	if (answer == "y")
-		stepByStep = true;
-	else if (answer == "n")
-		stepByStep = false;
-	else
-		cout << "That was not an option. Seeing that you struggle to type in single letters,\nyou dont care to watch every generation.\n";
+	try
+	{
+		nextGenChoice = stoi(answer);
 
+		if (nextGenChoice < 1 || nextGenChoice > 3)
+			throw runtime_error("That was not an option.");
+	}
+	catch (...)
+	{
+		cout << "That was not an option. I'm going to select the option to view every generation.\n";
+		nextGenChoice = 2;
+	}
+	//ask for the file
 	string outputFileName = "";
-	if (stepByStep == false)
+	if (nextGenChoice == 3)
 	{
 		cout << "What would you like the output file to be called?\n";
 		cin >> outputFileName;
 		outputFile.open(outputFileName);
 	}
+
 	//done gathering user input
 
 	//now run the simulation
@@ -170,13 +181,14 @@ int main(int argc, char** argv)
 		}
 		catch (runtime_error e)
 		{
-			cout << "There was a problem. Your error message: " << e.what() << endl;
 			cout << "You must enter a valid file name.\n";
+			cout << "Your error message: " << e.what() << endl;
 			cout << "This could also occur if the file did not follow the standard layout.\n";
 			return 1;
 		}
 	}
-		
+	
+	//now start all the generation jazz
 
 	int currentGenPopulation = curBoard->totalCells;
 	int nextGenPop = 0;
@@ -187,45 +199,52 @@ int main(int argc, char** argv)
 		currentGenPopulation = curBoard->totalCells;
 		//the program will alway print the generation number so the user knows it is still running
 		cout << "Generation Number: " << generationCounter << endl;
-		if (stepByStep == false)
+		if (nextGenChoice == 3)
 		{
 			outputFile << "Generation Number: " << generationCounter << endl;
 			outputFile << curBoard->PrintGrid() << endl;
 		}
-		else
+		else if(nextGenChoice == 2 || nextGenChoice == 1)
 			cout << curBoard->PrintGrid() << endl;
 
 		
-
+		//get the starter coordinates of the next generation
 		int** nextGenStarterPos = curBoard->GetNextGeneration();
+		//get the number of occupied cells in the next generation (also the length of the array gathered on the previous line)
 		nextGenPop = curBoard->GetNextGenerationPopulation();
+		//instantiate the next gameboard with the same dimentions, but the new starter positions
 		nextGen = new GameBoard(curBoard->dimentions[0], curBoard->dimentions[1], gameMode, nextGenStarterPos, nextGenPop);
 		
-		if (stepByStep == false)
+		if (nextGenChoice == 3)
 			outputFile << "Next Generation Population: " << nextGenPop << endl;
-		else
+		else if(nextGenChoice == 2 || nextGenChoice == 1)
 			cout << "Next Generation Population: " << nextGenPop << endl;
 
 		keepRunning = KeepRunning(curBoard, nextGen);
 
-		curBoard->~GameBoard();
-
+		curBoard->~GameBoard();//deconstruct the previous generation. (because memory reasons)
+		//reassign the variables
 		curBoard = nextGen;
-		if(stepByStep)
-			cout << "Keep running to next generation: " << keepRunning << endl;
+		//if(nextGenChoice == 1 || nextGenChoice == 2)
+			//cout << "Keep running to next generation: " << keepRunning << endl;
 
-		if (stepByStep)
+		//this is to wait for user input if they select the option to press enter every time
+		if (nextGenChoice == 2)
 		{
-			string throwAway;
 			cout << "Press ENTER to continue to next generation.\n";
 			cin.get();
+		}
+		//sleep for 2 seconds if the option was selected
+		if (nextGenChoice == 1)
+		{
+			sleep_for(seconds(2));
 		}
 
 		++generationCounter;
 	} while (keepRunning);
 
 	//print the last generation
-	if (stepByStep == false)
+	if (nextGenChoice == 3)
 	{
 		outputFile << "Generation Number: " << generationCounter << endl;
 		outputFile << curBoard->PrintGrid() << endl;
@@ -244,7 +263,9 @@ int main(int argc, char** argv)
 	cout << "Goodbye! :)\n";
 }
 
-//this will determine whether the game should keep runnning.
+/*this will determine whether the game should keep runnning.
+It will return false if the grid from the previous gen is identical to the current gen 
+or if the current gen's population is 0.*/
 bool KeepRunning(GameBoard*& curGen, GameBoard*& nextGen)
 {
 	//check to see if the nextGen's population is empty
@@ -270,8 +291,6 @@ bool KeepRunning(GameBoard*& curGen, GameBoard*& nextGen)
 
 	if (areGridsEqual)
 		return false;
-
-
 
 	return true;
 }

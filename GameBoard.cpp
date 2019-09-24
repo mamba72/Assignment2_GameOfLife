@@ -109,6 +109,7 @@ void GameBoard::InitializeGridRandomly(float initDensity)
 	InitializeGrid(starterPos, startPop);
 }
 
+/*This takes in the coordinates of the starting coordinates and that arrays length*/
 void GameBoard::InitializeGrid(int**& startCoords, int startPop)
 {
 	this->totalCells = startPop;
@@ -172,16 +173,13 @@ string GameBoard::PrintGrid()
 		outputStr += "\n";
 	}
 
-	//cout << "Finished printing board." << endl;
 	return outputStr;
 }
 
-//create a new game object
+//go through the grid and gather up the coordinates of all the cells that will be in the next generation
 int** GameBoard::GetNextGeneration()
 {
 	int numberNext = GetNextGenerationPopulation();
-
-	//cout << "Number of cells in next gen: " << numberNext << endl;
 
 	//now go through the grid finding all the coordinates of the next generation's occupied cells
 	int** nextStarterPos = new int* [numberNext];
@@ -191,12 +189,12 @@ int** GameBoard::GetNextGeneration()
 	}
 
 	int cellCounter = 0;
+	//go through the grid and gather up the coordinates of all the cells that will be in the next generation
 	for (int row = 0; row < dimentions[0]; ++row)
 	{
 		for (int col = 0; col < dimentions[1]; ++col)
 		{
 			int numberNeighbors = grid[row][col].NumNeighbors(grid, dimentions[0], dimentions[1]);
-			//cout << "Number of neighbors: " << numberNeighbors << "\tIs Cell Occupied: " << grid[row][col].isEmpty << endl;
 			if (numberNeighbors == 2 && grid[row][col].isEmpty == false)
 			{
 				nextStarterPos[cellCounter][0] = row;
@@ -216,6 +214,7 @@ int** GameBoard::GetNextGeneration()
 	return nextStarterPos;
 }
 
+/*Get the population of the next generation.*/
 int GameBoard::GetNextGenerationPopulation()
 {
 	int numberNext = 0;
@@ -226,7 +225,6 @@ int GameBoard::GetNextGenerationPopulation()
 		for (int col = 0; col < dimentions[1]; ++col)
 		{
 			int numberNeighbors = grid[row][col].NumNeighbors(grid, dimentions[0], dimentions[1]);
-			//cout << "Number of neighbors: " << numberNeighbors << "\tIs Cell Occupied: " << grid[row][col].isEmpty << endl;
 			if (numberNeighbors == 2 && grid[row][col].isEmpty == false)
 				++numberNext;
 			else if (numberNeighbors == 3)

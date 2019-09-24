@@ -17,6 +17,7 @@ Data Structures Game of Life assignment
 5. http://www.cplusplus.com/reference/string/stof/
 6. http://www.cplusplus.com/doc/tutorial/exceptions/
 7. https://stackoverflow.com/questions/21257544/c-wait-for-user-input/21257728
-8. 
+8. https://stackoverflow.com/questions/158585/how-do-you-add-a-timed-delay-to-a-c-program
+9. 
 
 # Instructions:
