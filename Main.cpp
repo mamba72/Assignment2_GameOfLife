@@ -9,7 +9,6 @@ Assignment 2 Game of Life
 #include <thread>//to pause/sleep the thread
 #include <fstream>
 #include <iostream>
-//#include "Cell.h"
 #include "GameBoard.h"
 #include <time.h>
 

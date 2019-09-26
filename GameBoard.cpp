@@ -14,6 +14,16 @@ GameBoard::GameBoard(int height, int width, int gameMode, float initDensity)
 	//THROW AN EXCEPTION IF HEIGHT AND WIDTH ARE TOO LOW
 	//OR IF GAMEMODE ISNT A VALID SELECTION
 	//OR IF INITDENSITY IS GREATER THAN ONE OR LESS THAN OR EQUAL TO 0
+
+	if (height < 1)
+		throw runtime_error("The height you input was too low. It can't be less than 1.");
+	if (width < 1)
+		throw runtime_error("The width you input was too low. It can't be less than 1.");
+	if (initDensity <= 0 || initDensity > 1)
+		throw runtime_error("The initial density you input was invalid. It must be greater than 0 and less then or equal to 1.");
+	if (gameMode < 1 || gameMode > 3)
+		throw runtime_error("The gamemode you input was invalid. Your options are 1, 2, or 3.");
+
 	dimentions[0] = height;
 	dimentions[1] = width;
 	this->gameMode = gameMode;
@@ -23,6 +33,9 @@ GameBoard::GameBoard(int height, int width, int gameMode, float initDensity)
 
 GameBoard::GameBoard(string fileName, int gameMode)
 {
+	if (gameMode < 1 || gameMode > 3)
+		throw runtime_error("The gamemode you input was invalid. Your options are 1, 2, or 3.");
+
 	this->gameMode = gameMode;
 
 	FileReader reader(fileName);
@@ -37,6 +50,15 @@ GameBoard::GameBoard(string fileName, int gameMode)
 
 GameBoard::GameBoard(int height, int width, int gameMode, int**& startingPos, int startingPop)
 {
+	if (height < 1)
+		throw runtime_error("The height you input was too low. It can't be less than 1.");
+	if (width < 1)
+		throw runtime_error("The width you input was too low. It can't be less than 1.");
+	if (startingPop < 0)
+		throw runtime_error("The starting population you input was too low. It must be greater than or equal to 0.");
+	if (gameMode < 1 || gameMode > 3)
+		throw runtime_error("The gamemode you input was invalid. Your options are 1, 2, or 3.");
+
 	this->dimentions[0] = height;
 	this->dimentions[1] = width;
 	this->gameMode = gameMode;
