@@ -57,7 +57,7 @@ int Cell::NumNeighbors(Cell** &board, int height, int width)
 			totalNeighbors++;
 
 		//left and down
-		if (IsNeighbor(coordinates[0] - 1, coordinates[1] - 1, board))
+		if (IsNeighbor(coordinates[0] - 1, coordinates[1] - 1, board));
 			totalNeighbors++;
 
 		//directly down

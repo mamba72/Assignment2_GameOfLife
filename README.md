@@ -21,3 +21,7 @@ Data Structures Game of Life assignment
 9. 
 
 # Instructions:
+1. Run ./GameOfLife.out
+2. Follow on screen prompts.
+3. (Note about prompts: i felt that since the interface was so simple, 
+it would just quit if the user couldn't follow directions.)

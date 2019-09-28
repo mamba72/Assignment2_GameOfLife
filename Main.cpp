@@ -19,8 +19,13 @@ using namespace std;
 
 bool KeepRunning(GameBoard*& curGen, GameBoard*& nextGen);
 
+//global var
+int stabalizedGens = 0;
+
 int main(int argc, char** argv)
 {
+
+	string my = string(1, '0');
 	//this is to ensure that the random numbers are actually random by seeding the number with the current time
 	srand(time(NULL));
 
@@ -290,6 +295,16 @@ bool KeepRunning(GameBoard*& curGen, GameBoard*& nextGen)
 
 	if (areGridsEqual)
 		return false;
+
+	//if the simulation has the same amonut of cells for 4 generations, it has stabalized.
+	if (curGen->totalCells == nextGen->totalCells)
+	{
+		stabalizedGens++;
+		if (stabalizedGens > 4)
+			return false;
+	}
+	else
+		stabalizedGens = 0;
 
 	return true;
 }
