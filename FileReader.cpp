@@ -117,3 +117,17 @@ bool FileReader::IsWidthCorrect(string* &fileLines, int lineCount, int width)
 
 	return true;
 }
+
+void FileReader::WriteToFile(string fileName, string strToWrite)
+{
+	ofstream outFile;
+
+	outFile.open(fileName, ofstream::app);
+
+	if (!outFile)
+		throw runtime_error("Cannot open output file.");
+
+	outFile << strToWrite << endl;
+
+	outFile.close();
+}

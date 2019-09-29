@@ -57,7 +57,7 @@ int main(int argc, char** argv)
 	int width = 0;
 	float density = 0;
 	string filePath = "";
-	ofstream outputFile;
+	//ofstream outputFile;
 	if (isRandom)
 	{
 		cout << "What should the dimentions of the world be?\n";
@@ -163,7 +163,17 @@ int main(int argc, char** argv)
 	{
 		cout << "What would you like the output file to be called?\n";
 		cin >> outputFileName;
-		outputFile.open(outputFileName);
+		//outputFile.open(outputFileName);
+
+		try
+		{
+			FileReader::WriteToFile(outputFileName, "Beginning of Simulation.");
+		}
+		catch (...)
+		{
+			cout << "There was a problem opening your output file. Make sure you input a file that isnt in use.";
+			return 1;
+		}
 	}
 
 	//done gathering user input
@@ -205,8 +215,12 @@ int main(int argc, char** argv)
 		cout << "Generation Number: " << generationCounter << endl;
 		if (nextGenChoice == 3)
 		{
-			outputFile << "Generation Number: " << generationCounter << endl;
-			outputFile << curBoard->PrintGrid() << endl;
+			//outputFile << "Generation Number: " << generationCounter << endl;
+			//outputFile << curBoard->PrintGrid() << endl;
+			string outStr = "Generation Number: " + to_string(generationCounter);
+			FileReader::WriteToFile(outputFileName, outStr);
+			outStr = curBoard->PrintGrid();
+			FileReader::WriteToFile(outputFileName, outStr);
 		}
 		else if(nextGenChoice == 2 || nextGenChoice == 1)
 			cout << curBoard->PrintGrid() << endl;
@@ -220,7 +234,11 @@ int main(int argc, char** argv)
 		nextGen = new GameBoard(curBoard->dimentions[0], curBoard->dimentions[1], gameMode, nextGenStarterPos, nextGenPop);
 		
 		if (nextGenChoice == 3)
-			outputFile << "Next Generation Population: " << nextGenPop << endl;
+		{
+			//outputFile << "Next Generation Population: " << nextGenPop << endl;
+			string outStr = "Next Generation Population: " + to_string(nextGenPop);
+			FileReader::WriteToFile(outputFileName, outStr);
+		}
 		else if(nextGenChoice == 2 || nextGenChoice == 1)
 			cout << "Next Generation Population: " << nextGenPop << endl;
 
@@ -250,12 +268,17 @@ int main(int argc, char** argv)
 	//print the last generation
 	if (nextGenChoice == 3)
 	{
-		outputFile << "Generation Number: " << generationCounter << endl;
+		/*outputFile << "Generation Number: " << generationCounter << endl;
 		outputFile << curBoard->PrintGrid() << endl;
 
 		outputFile << "This is the last generation.\n";
 
-		outputFile.close();
+		outputFile.close();*/
+		string outStr = "Generation Number: " + to_string(generationCounter);
+		FileReader::WriteToFile(outputFileName, outStr);
+		outStr = curBoard->PrintGrid();
+		FileReader::WriteToFile(outputFileName, outStr);
+		FileReader::WriteToFile(outputFileName, "Simulation Finished");
 	}
 	cout << "Generation Number: " << generationCounter << endl;
 	cout << curBoard->PrintGrid() << endl;

@@ -1,128 +1,2185 @@
+Beginning of Simulation.
 Generation Number: 0
-X - - - - - - 
-- - X X - - - 
-X X - - - - - 
-- - - - - - - 
-X X X X X X X 
+X - X - - - - - X - 
+- X X X X X - - X X 
+- - X - - X - - - - 
+- X X - - - - - - - 
+X - X X X X X X X X 
+- X - - X - X X - X 
+X - - - - - - - X - 
+- X - - - X - X - - 
+X X - - X X - X - - 
+X X - - X X X X - X 
 
-Next Generation Population: 12
+Next Generation Population: 35
 Generation Number: 1
-- - - - - - - 
-X - X - - - - 
-- X X - - - - 
-- - - X X X - 
-- X X X X X - 
+X - - - - X - X X - 
+X - - - - X X X X X 
+X - - - - X - - X - 
+X - - - - - - - - X 
+X - - - - - - - - X 
+- X - - X - - - - X 
+X - - - X X - - X X 
+- X X - - X - X - - 
+- - X X - - - - - - 
+- X - X - - - X X - 
 
-Next Generation Population: 7
+Next Generation Population: 38
 Generation Number: 2
-- - - - - - - 
-- - X - - - - 
-- X X - X - - 
-- - - - - X - 
-- - X - - X - 
+X X - - X X - - - - 
+X X - - - - - - - X 
+X X - - X X - - - - 
+X X - - - - - - - X 
+X X - - - - - - - X 
+- X - X X - - - - - 
+X - X - - X - X - X 
+X X - - - X X X - - 
+X - - X - - X - X - 
+- X - X - - - X X - 
 
-Next Generation Population: 11
+Next Generation Population: 35
 Generation Number: 3
-- - - - - - - 
-- X X X - - - 
-- X X X - - - 
-- X X X X X - 
-- - - - - - - 
+- - X - X X - - - - 
+- - X X - - - - - - 
+- - X - X X - - X X 
+- - X - X - - - X X 
+- - - X X - - - X X 
+- - - X X X X - - X 
+- - X - - X - X - - 
+- - - - - - - - - X 
+- - - X - - - - X X 
+X - - X - - X X X - 
 
-Next Generation Population: 9
+Next Generation Population: 28
 Generation Number: 4
-- - X - - - - 
-- X - X - - - 
-X - - - - - - 
-- X - - X - - 
-- - X X X - - 
+- X X - X X - - - - 
+- - - - - - - - X X 
+- - - - X X - X - - 
+- X X - - - - - - - 
+- - - - - - X - - - 
+- - - - - - - - - X 
+- - X - - X - - - X 
+- - X - X - - X - X 
+- - X X X - X - - - 
+- - X X - - X - - X 
 
-Next Generation Population: 12
+Next Generation Population: 48
 Generation Number: 5
-- - X - - - - 
-- X X - - - - 
-X X X - - - - 
-- X X - X - - 
-- - X X X - - 
+- X X X X X - - X X 
+- X - X - - X X X X 
+- X X X X X X X - - 
+- X X X X X X X - - 
+- X - - - - - - - - 
+- - - - - X X - X X 
+- X X - X X X - - X 
+- - - - - - X X - X 
+- - - - - - X - X X 
+- X - - X X X - - - 
 
-Next Generation Population: 10
+Next Generation Population: 29
 Generation Number: 6
-- X X - - - - 
-X - - X - - - 
-X - - - - - - 
-X - - - X - - 
-- X X - X - - 
+X X - - - X - - - - 
+- - - - - - - - - X 
+- - - - - - - - - - 
+- - - - - - - X - - 
+X X - X - - - - X X 
+X - X X - - - - X X 
+- X X X X - - - - X 
+- X - - X - - - - - 
+- - - - X - - - X X 
+- - - - X - X X X - 
 
-Next Generation Population: 10
+Next Generation Population: 28
 Generation Number: 7
-- X X - - - - 
-X - X - - - - 
-X X - - - - - 
-X - - X - - - 
-- X - X - - - 
+X X - - - - - - - - 
+X - - - - - - - - - 
+- - - - - - - - X - 
+X X X - - - - X - X 
+X - - X X - - - - - 
+- - - - - - - X - - 
+- - - - X X - - - X 
+X X - - X X - - - - 
+- - - - X - X - - X 
+- - - X X X X - - X 
 
-Next Generation Population: 8
+Next Generation Population: 39
 Generation Number: 8
-- X X - - - - 
-X - X - - - - 
-X - X - - - - 
-X - - - - - - 
-- - X - - - - 
+X X - - - - - - - - 
+X X - - - - - - - - 
+- - X - - - - X X X 
+X - X - X - - X - - 
+X - X X X - X X X - 
+- - - - - X X - X - 
+X X - X - - - - - - 
+X X - - - - X - X X 
+X - - - - - X X X X 
+- - - X - - X - X X 
 
-Next Generation Population: 6
+Next Generation Population: 28
 Generation Number: 9
-- X X - - - - 
-X - X X - - - 
-X - - - - - - 
-- - - - - - - 
-- - - - - - - 
+- - X - - - - - - - 
+- - X - - - - X - X 
+- - X - - - X X - X 
+X - - - X - - - - X 
+X - X - - - - - X X 
+- - - - - X - - X - 
+- - - - X - X - - X 
+- - X - - X X - - - 
+X X - - - - - - - - 
+- - - - - X X - - X 
 
-Next Generation Population: 7
+Next Generation Population: 45
 Generation Number: 10
-- X X X - - - 
-X - X X - - - 
-- X - - - - - 
-- - - - - - - 
-- - - - - - - 
+- X X X - - - - X - 
+- - X X - - - X - X 
+- - X X - X X X - X 
+X - X X - X X X - - 
+X X - X X - - X - - 
+- - - - X X X - - - 
+- - - X X - X - X - 
+X - X X X X X - - - 
+X X X - X - - - - - 
+X - - - - X X - - - 
 
-Next Generation Population: 6
+Next Generation Population: 22
 Generation Number: 11
-- X - X - - - 
-X - - X - - - 
-- X X - - - - 
-- - - - - - - 
-- - - - - - - 
+- X - - X - - X X X 
+- - - - - X - - - X 
+- - - - - - - - - X 
+X - - - - - - - - - 
+X X - - - - - X - - 
+X - X - - - - - - - 
+- X - - - - - - - - 
+X - - - - - X X - - 
+- - - - - - - - - - 
+X - - - X X X - - - 
 
-Next Generation Population: 5
+Next Generation Population: 29
 Generation Number: 12
-- - X - - - - 
-X - - X - - - 
-- X X - - - - 
-- - - - - - - 
-- - - - - - - 
+- - - - X X X X - X 
+- - - - X - X X - X 
+- - - - - - - - X X 
+X - - - - - - - X - 
+- - X - - - - - - - 
+- - X - - - - - - - 
+- X X - - - X X - - 
+X X - - - - X X - - 
+X - - - X - - X - - 
+- - - - X X X - - - 
 
-Next Generation Population: 3
+Next Generation Population: 30
 Generation Number: 13
-- - - - - - - 
-- - - X - - - 
-- X X - - - - 
-- - - - - - - 
-- - - - - - - 
+- - - X X - - - - X 
+- - - X X - - - - - 
+- - - - - - X - - - 
+- X - - - - - X X X 
+- X X X - - - - - - 
+- - - X - - X X - - 
+- - - - - X - - X - 
+- - X - - - - - X - 
+X X - X X - - X - - 
+- - - X X X X X - - 
 
-Next Generation Population: 2
+Next Generation Population: 42
 Generation Number: 14
-- - - - - - - 
-- - X - - - - 
-- - X - - - - 
-- - - - - - - 
-- - - - - - - 
+- - X - - X - - - - 
+- - X - X X - - - - 
+- - X X - - X - - X 
+X X - X - - X X X X 
+X X - X X - - - - - 
+- X - X X X X X X - 
+- - X X - X - - X X 
+X - X - - X - - X - 
+X X - - - - - - - - 
+X - X - - X - X - - 
 
-Next Generation Population: 0
+Next Generation Population: 29
 Generation Number: 15
-- - - - - - - 
-- - - - - - - 
-- - - - - - - 
-- - - - - - - 
-- - - - - - - 
+- X X - - X X - - - 
+- - - - - - X - - - 
+X - - - - - X - - X 
+- - - - - - X X - X 
+- - - - - - - - - X 
+- X - - - - - - - - 
+X - - - - - - - - X 
+X - - X X X - X X X 
+- - - - X X X X X - 
+X - - - - - X - - - 
 
-This is the last generation.
+Next Generation Population: 32
+Generation Number: 16
+- X X - - X X X - - 
+X - - - - - X X - - 
+- - - - - - - - - X 
+- - - - - X X X - X 
+- - - - - - X - X X 
+X X - - - - - - X X 
+X - - X - X X X - X 
+X - - X - - - - - - 
+X - - - - - - - - X 
+- - - - X - X - - - 
+
+Next Generation Population: 36
+Generation Number: 17
+X X X - - X - - X - 
+X - - - - - - X X - 
+- - - - - - - - - X 
+- - - - - X - - - - 
+X X - - - - X - - - 
+X X X - X - - - - - 
+- - X X - X X X - X 
+X X X X X X X - X X 
+X - - X - X - - - - 
+- - - - - X - - - - 
+
+Next Generation Population: 29
+Generation Number: 18
+X - X - - - X - X X 
+X - - - - - - X - X 
+- - - - - - X X X - 
+X X - - - X X - - - 
+- - - X X - - - - - 
+- - - - X - - X X - 
+- - - - - - - - - X 
+X - - - - - - - X X 
+X - - X - - - - X - 
+- - - - X X - - - - 
+
+Next Generation Population: 36
+Generation Number: 19
+X - - - - - X - - X 
+X X - - - X - - - X 
+- X - - - - - - X X 
+X X X X - - - - - - 
+X - - X - - X X X - 
+- - - - X - - X X X 
+- - - - - - - - - X 
+X X - - - - - X - - 
+X - - X - X - X X X 
+- - - X X X - - - - 
+
+Next Generation Population: 48
+Generation Number: 20
+X - - - - X X - X X 
+- X X - - X X - - - 
+- - - X X - - - X X 
+- - - X X - X - - X 
+X - - X X X X - - - 
+- - - X - X - - - X 
+X X - - - - X - - X 
+X X X - X - - X - - 
+X X X X - X - X X X 
+- - X X - X X X X - 
+
+Next Generation Population: 34
+Generation Number: 21
+X - X - X - - - X X 
+X X X - - - X - - - 
+- X - - - - X X X X 
+- - - - - - X - - X 
+- - - - - - - - X X 
+- X - X - - - - X X 
+- - - - X - X X - X 
+- - - - X - - X - - 
+- - - - - X - - - X 
+X - - X - X - - - X 
+
+Next Generation Population: 35
+Generation Number: 22
+X - X - - X - X X X 
+- - - X - X X - - - 
+- X X - - - - - - X 
+- - - - - X X - - - 
+- - X - - - - X - - 
+- - X X X X X - - - 
+- - - - X - X - - X 
+- - - X X - - X - X 
+- - - X - X - - X X 
+- - - - - X - - X X 
+
+Next Generation Population: 38
+Generation Number: 23
+- X X X - X - X X X 
+X - - X - X X - - X 
+- X X X X - - - - - 
+- - X - - X X X X - 
+- X X - - - - X - - 
+- X X - - - - - - - 
+- - - - - - X X - X 
+- - X - - - - X - - 
+- - X X - X - - - - 
+- - - - X X - X - X 
+
+Next Generation Population: 45
+Generation Number: 24
+X X - X - X - X - X 
+X - - - - - X - - X 
+X X - - - - - - - X 
+X - - - X X - - X - 
+X - - X - X - X X - 
+X - X - - - - - X - 
+- - X - - - X X - - 
+- X X - X X - X X - 
+- X X X - X - X X - 
+- - X X X X X - X - 
+
+Next Generation Population: 36
+Generation Number: 25
+X X X - X X - X - X 
+- - X - - X X X - X 
+- X - - X - X - - X 
+- - - X - X - - - - 
+X - X X - X X - - X 
+X - X - - X - - X - 
+X - - - X - - - - - 
+X - - - - - - - - X 
+X - - - - - - - - X 
+- - - - - - X - X - 
+
+Next Generation Population: 39
+Generation Number: 26
+X - X - X - - X - X 
+- - X - - - - - - X 
+- X - X - - - X X X 
+X - - - - - - - X X 
+X - - - - - X X X X 
+X - X - - - X - X X 
+X - - - X X - - X - 
+X X - - - - - - X X 
+X - - - - - - X - X 
+- - - - - - - X X X 
+
+Next Generation Population: 28
+Generation Number: 27
+- - X - - - - - - X 
+X - - - X - X - - - 
+X X - - - - - X - - 
+X - - - - - - - - - 
+X - - - - X X - - - 
+X - - X X - - - - - 
+- - X - X X X - - - 
+- X - - X - - - - X 
+X X - - - - X - - - 
+- - - - - - X X - X 
+
+Next Generation Population: 38
+Generation Number: 28
+- X - X - X - - - - 
+X - X - - X X X X - 
+- X - - - - X - - - 
+- - - - - X - X - - 
+X X - X - X X - - - 
+X X X - - - - - - - 
+X X X - - - X - - - 
+- - - X X - X - - - 
+X X - - - X X - - X 
+X - - - - X X X X - 
+
+Next Generation Population: 39
+Generation Number: 29
+X X - X - X - - X - 
+X - X X X - - - X - 
+X X X - X - - - X - 
+- - X - - - - X - - 
+- - - X - X X X - - 
+- - - - - - X - - - 
+- - - - X - X X - - 
+- - - X X - - X - - 
+X X X X - - - - - X 
+X X - - X - - X X X 
+
+Next Generation Population: 30
+Generation Number: 30
+X - - - - X - X X X 
+- - - - - - - - X X 
+X - - - X - - - X - 
+X - X - - X - - - - 
+- - X - X X - - - - 
+- - - X X - - - - - 
+- - - - X - - X X - 
+X - - - - X - X X - 
+- - - - - - X - - X 
+- - - X - - - X - X 
+
+Next Generation Population: 33
+Generation Number: 31
+- - - - - - X X - - 
+X - - - X X - - - - 
+X - - X X X - X X X 
+X - X - - X X - - - 
+- X X - - - - - - - 
+- - X - - - - X X - 
+- - - - X X - - - X 
+- - - - X X - - - X 
+- - - - X X X - - X 
+- - - - - - X - - X 
+
+Next Generation Population: 41
+Generation Number: 32
+- - - - X - X X - - 
+X X - - - - - - - X 
+X - X - - - - X X X 
+X - - - - X X - X - 
+X - - X - X X X X - 
+- - X X X X X X X X 
+- - - X - - - X - X 
+- - - - - - - - - X 
+- - - X - - X X - X 
+- - - - X - X - X X 
+
+Next Generation Population: 30
+Generation Number: 33
+X X - - - X X X X - 
+X - X X - - - - - X 
+- - - - - X - - - - 
+X - X - - - - - - - 
+X X - - - - - - - - 
+- - - - - - - - - X 
+- - - X - X - X - X 
+- - X X - - - - - X 
+- - - X X - X - - - 
+- - - X - - X - X X 
+
+Next Generation Population: 41
+Generation Number: 34
+X - - X X X X X X X 
+X - X X - - - X X - 
+X - - X - - - - - - 
+X - X - - - - - - - 
+X X X - - - - - - - 
+X - - - X - X - - X 
+- - - X - - X - - X 
+- - - - - - X X X X 
+- - - - X - X - - - 
+- - X X X X X X X X 
+
+Next Generation Population: 29
+Generation Number: 35
+X - - - - X - - - X 
+X - - - - X - - - X 
+X - - X - - - X - - 
+- - - - - - - - - - 
+- - X X - X - - - - 
+X - X X X - X X X X 
+- - - X X - - - - - 
+- - - X - - - - - X 
+- - X - - - - - - - 
+- - X - - - - X X X 
+
+Next Generation Population: 36
+Generation Number: 36
+X X - - X X X - X X 
+X X - - - X X - - X 
+X - - - X - - - X - 
+- - - - X - X - - - 
+- - - - - X - - - X 
+- - - - - - X X X X 
+- - - - - X X X - X 
+- - - - X - - - - - 
+- X X - - - - X - - 
+- X X - - - - X X X 
+
+Next Generation Population: 42
+Generation Number: 37
+- - X - X - - - X X 
+- - - X - - X - - X 
+X X - X X - X X X X 
+- - - X X - X X X - 
+- - - - X X - - - X 
+- - - - X - - - - - 
+- - - - X - - - - X 
+- X X X X - - X X - 
+X - - - - - X X - X 
+X - X - - - X X X X 
+
+Next Generation Population: 32
+Generation Number: 38
+- - X - X X - X X X 
+X - - - - - X - - - 
+X X - - - - - - - - 
+X - X - - - - - - - 
+- - - - - - - X X - 
+- - - - - - - - X X 
+- X - - - X - X - X 
+X X X - X X - - - - 
+X - - - - X - - - X 
+X X - - - X - - - X 
+
+Next Generation Population: 38
+Generation Number: 39
+- X - X X X - X X X 
+X - X - X X X - X - 
+- - X - - - - - - - 
+X - - - - - - X X - 
+- - - - - - - X - - 
+- - - - - - - - - X 
+- - - X - X - X - X 
+- - X X - - - - X X 
+- - X - - X X - X X 
+X X - - X X - - X X 
+
+Next Generation Population: 36
+Generation Number: 40
+X X - - - - - - - X 
+X - X - - - X - X X 
+X - X X X X X - - - 
+- X - - - - X X X - 
+- - - - - - X X - - 
+- - - - X - - X - X 
+- - - X - - X X - - 
+- X - - - - - - - - 
+X - - - - - X - - - 
+X X X - X - X X - X 
+
+Next Generation Population: 41
+Generation Number: 41
+X - X - - - - X - X 
+- - X - - - X - X X 
+X - - X X - - - - X 
+X X - X X - - - X - 
+- - - - - - - - - - 
+- - - X X - - - - - 
+- - X X X - X X X - 
+X X X - - X - X - - 
+- - X X - - X - X - 
+X X X X - - X X X - 
+
+Next Generation Population: 33
+Generation Number: 42
+- - X X - - X X - X 
+X - X - X X X - - - 
+X - - - - - - X - X 
+X X - - X - - - X X 
+X - X - - - - - - - 
+- - - - - - X - X - 
+X - - - - - - - X - 
+X - - - - X - - - - 
+- - - - - - - - X X 
+X - - X - X X - X - 
+
+Next Generation Population: 42
+Generation Number: 43
+- - X - - - - X X - 
+X - X - X - - - - X 
+- - X X - - X X - X 
+- - X X - - - X X X 
+X - - X - - - - - X 
+X X - - - - - - X X 
+X X - - - X X X X - 
+X - - - - - - X - X 
+X - - - - - X - X X 
+- - - - X X X - X X 
+
+Next Generation Population: 20
+Generation Number: 44
+- - X - - - - X X X 
+- - - - X X - - - X 
+- - - - - - X - - - 
+- - - - X - - X - - 
+X - - X - - - - - - 
+- - - - - X - - - - 
+- - - - - X - - - - 
+- - - - - - - - - X 
+X - - - X - - - - - 
+- - - - X - X - - X 
+
+Next Generation Population: 33
+Generation Number: 45
+- - - X X X X X - X 
+- - - - X X - - - X 
+- - - X - - X X X - 
+- - - X X X X - - - 
+- - - X - - X - - - 
+- - - - X X X - - - 
+- - - - X X - - - - 
+- - - - X X - - - - 
+- - - X X - - - X X 
+- - - X X X - - - - 
+
+Next Generation Population: 18
+Generation Number: 46
+- - - X - - - X - X 
+- - X - - - - - - X 
+- - X - - - - - X X 
+- - - - - - - - - - 
+- - X - - - - X - - 
+- - - - - - - - - - 
+- - - - - - - - - - 
+- - - - - - - - X X 
+- - X - - - - - X X 
+- - X - - X - - X - 
+
+Next Generation Population: 24
+Generation Number: 47
+- - X X - - - - - X 
+- X X - - - - X - - 
+- X X - - - - - X X 
+- X X - - - - X - - 
+- - - - - - - - - - 
+- - - - - - - - - - 
+- - - - - - - - X X 
+- - - - - - - X - - 
+- X X X - - - - - - 
+- X X - - - - X X X 
+
+Next Generation Population: 29
+Generation Number: 48
+- - - X - - - - X - 
+X - - - - - - X - - 
+- - - X - - X - X X 
+X - X - - - - X - - 
+- X - - - - - - - - 
+- - - - - - - - X X 
+- - - - - - - X X X 
+- X - X - - - X - - 
+X - - X - - X - - X 
+X - - X - - - X X X 
+
+Next Generation Population: 43
+Generation Number: 49
+- - - - - - - X X - 
+- - X X - - X - - X 
+X X X X - - X - X X 
+X - X X - - X X - - 
+X X X - - - - X X X 
+- - - - - - - - - - 
+- - X - - - X - - X 
+X X - X X - - - - X 
+X - - X X - X - - X 
+X - X X - - X X - X 
+
+Next Generation Population: 43
+Generation Number: 50
+- - X X - - X X X X 
+X - - - X X X - - X 
+X - - - X - - - - X 
+- - - - - X - - - - 
+X - - X - - - X X X 
+X - X - - - X - - X 
+X - X - X X - - X X 
+X - - - - - X - - X 
+- - - - - - X - - X 
+X X X - X X X X - X 
+
+Next Generation Population: 50
+Generation Number: 51
+- X X X - - - - - X 
+X - X - X - - - - X 
+X - - X - - X - X X 
+X - - X - - X X - - 
+X - X X X X X X - X 
+X - X - X - X - - - 
+X - X X X - - X - - 
+X X - - X - X - - X 
+- - X X X - - - - X 
+X X X X X - - X - X 
+
+Next Generation Population: 31
+Generation Number: 52
+X - - - X - - - X X 
+X - - - X X - X - - 
+X - - X - X X - - X 
+X - - - - - - - - X 
+X - - - - - - - X - 
+X - - - - - - - X - 
+- - - - - - - X X - 
+X - - - - - X X X X 
+- - - - - - X - - X 
+X - - - X - - - - X 
+
+Next Generation Population: 39
+Generation Number: 53
+X X - X X - X X X X 
+X X - - - - - X - X 
+X X - X - X X X X X 
+X X - - - X - - - X 
+X X - - - - - X X - 
+X - - - - - - - - X 
+X - - - - - - - - - 
+- - - - - X - - - X 
+X - - - - - X - - X 
+- - - - - X - - X X 
+
+Next Generation Population: 27
+Generation Number: 54
+- - - X X X X - - X 
+- - - - - - - - - - 
+- - - - - X - - - - 
+- - - - X X - - - X 
+- - - - - - - X - - 
+- - - - - - - X X - 
+X - - - - - - - X X 
+X - - - - X X - X X 
+- - - - X - X X - - 
+- - - - - X X - X X 
+
+Next Generation Population: 28
+Generation Number: 55
+- - - X X X X - - - 
+- - - X - - X - - - 
+- - - - - X X - - - 
+- - - - X X X - X - 
+- - - - X - X X - X 
+- - - - - - X - - - 
+X X - - - X - - - - 
+X - - - X - - - - X 
+- - - - X - - - - - 
+- - - - X X - - X X 
+
+Next Generation Population: 31
+Generation Number: 56
+- - X X - - X X - - 
+- - X X - - - X - - 
+- - - X - - - - - - 
+- - - X - - - - X X 
+- - - X X - - - - - 
+X X - - X - - X - - 
+X X - - X X X - - - 
+X X - X X - - - - - 
+- - - - - - - - - - 
+- - - X X X - - X X 
+
+Next Generation Population: 36
+Generation Number: 57
+- X - - X - X X X - 
+- X - - X - - X - - 
+- - - X X - - X X X 
+- - - - - - - - X X 
+X X - - X X - X - - 
+- - - - - - - X - - 
+- - - - - - X X - - 
+- X X X - - - - - - 
+X - X - - X - - X X 
+- - - X X X - - X X 
+
+Next Generation Population: 48
+Generation Number: 58
+X X X X X - X - X - 
+X X X - - - - - - X 
+- - - X X - X - - - 
+X X X - - X - - - X 
+X X - - X X - X - - 
+X - - - X X - - X - 
+- X - X - - X X - - 
+X - - X X X - X X X 
+X - - - - X X X - - 
+- - X X - X - X - X 
+
+Next Generation Population: 34
+Generation Number: 59
+- - - - X X - X X X 
+- - - - - - X X X - 
+- - - X X - X - X X 
+- - - - - - - - X - 
+- - X X - - - X - X 
+- - X - - - - - X - 
+- X - - - - - - - X 
+X - X X - - - - - X 
+X X - - - - - - - X 
+- - X X - X - X X - 
+
+Next Generation Population: 37
+Generation Number: 60
+- - - - X X - - - X 
+- - - - - - - - - - 
+- - - X X - X - - X 
+- - - - X - X - - - 
+- X X X - - - X - X 
+- - - X - - - X X - 
+X - - X - - - - - X 
+- - X X - - - - - X 
+X - - - X - X X - X 
+X X X X X - X X X X 
+
+Next Generation Population: 40
+Generation Number: 61
+- - - - X X - - - - 
+- - - - - - - - X X 
+- - - X X - X X - - 
+- X - - X - X X - X 
+- X - - - - - X - X 
+X - - X X - X X - - 
+- X - - X - - X - X 
+X X X - X X X X - X 
+X - - - X - - - - - 
+X X X - X - - - - X 
+
+Next Generation Population: 34
+Generation Number: 62
+- - - - X X - - X X 
+- - - - - - X - X X 
+- - X X X - - - - X 
+X X - - X - - - - X 
+- X X - - - - - - X 
+X - X X X - - - - X 
+- - - - - - - - - X 
+- - X - - - - X - X 
+- - - - - - X - X X 
+X X X - X - - - - - 
+
+Next Generation Population: 33
+Generation Number: 63
+- - - - X X X - - - 
+- - X - - - - - - - 
+X - X - X - - - - X 
+X - - - X - - - - X 
+- - - - - - - - - X 
+X - X X X - - - - X 
+- X - - - - - - - X 
+- - - - - - X X - - 
+X - - X - X X - X X 
+X X X X - X - - X - 
+
+Next Generation Population: 46
+Generation Number: 64
+- - - X X X X - - - 
+- - X - - - - - - - 
+X - X - X X - - X X 
+X X - X X - - - - X 
+X X X - - - - - - X 
+X - X X X - - - - X 
+X X - X - - X X - X 
+X X - - X - - - - - 
+X - - X - - - - X X 
+X X - X - X X X X X 
+
+Next Generation Population: 38
+Generation Number: 65
+- - X X X X X - - - 
+- - X - - - X - X X 
+X - - - - X - - X X 
+- - - - - X - - - X 
+- - - - - - - - - X 
+- - - - X X X X - X 
+- - - - - X X X - X 
+- - - - X X X X - - 
+- - - X - X - - - - 
+X X - X X X X - - X 
+
+Next Generation Population: 31
+Generation Number: 66
+- X X - X - X - X X 
+- - X - - - X - - - 
+- X - - X X - X - - 
+- - - - X X - - - X 
+- - - - - - - X - X 
+- - - - X - - - - X 
+- - - X - - - - - X 
+- - - X - - - X X - 
+X X - - - - - X - - 
+X X - X - - X - - - 
+
+Next Generation Population: 37
+Generation Number: 67
+- X X - - - X - X X 
+X - X - - - - - - - 
+- X X X - - - - X - 
+- - - X - X - X - X 
+- - - X - X - - - X 
+- - - X X - - - - X 
+- - X X - - - X - X 
+X X - X - - X X - X 
+- - - X - - - - X - 
+- X X - - - X X - - 
+
+Next Generation Population: 45
+Generation Number: 68
+X - X X - - - X X X 
+X - - - - - - X - X 
+X X - X - - X X X X 
+- X - X - X - X - X 
+- - - - - X X - - X 
+- - - - - X - - - X 
+X - - - - - - X - X 
+X X - X X - X - - X 
+- - - X - X - - X X 
+- X X X - - X X X - 
+
+Next Generation Population: 35
+Generation Number: 69
+X - X X - - X X - X 
+- - - X - - - - - - 
+- X - X - X - - - - 
+- X - X - - - - - X 
+- - - - - - - X - X 
+- - - - X X - - - X 
+X - X X - - X X - X 
+X X - X - - X - - - 
+- - - - - X - - - - 
+- X - X X X X - - X 
+
+Next Generation Population: 42
+Generation Number: 70
+- X X X X - X X X - 
+X X - X - X - - - - 
+X X - X - - - - - - 
+X X - X X - - - - X 
+- - - X X X X - - X 
+- X X - X X - - - X 
+X - - - - - X X - X 
+X X - X X - - X - - 
+- X - - - - - - - - 
+- - X X - - X - - - 
+
+Next Generation Population: 33
+Generation Number: 71
+- - - - - - X X X - 
+- - - - - X - X - - 
+- - - - - X - - - - 
+- X - - - - X - X X 
+- - - - - - X - - X 
+X X X - - - - X - X 
+- - - - - - X X - X 
+- X - X X X - X X - 
+- X - - X - X X - - 
+- X X X - - - - - - 
+
+Next Generation Population: 37
+Generation Number: 72
+- - - - - X - - X - 
+- - - - X X - X X - 
+- - - - X X - - X X 
+- - - - - - X - X X 
+- - X - - X X - - X 
+X X X - - X - X - X 
+- - - X - - - - - X 
+X X - X - - - - - X 
+- - - - - - X - X - 
+X X X X X - X - - - 
+
+Next Generation Population: 34
+Generation Number: 73
+- - - - - X - - X X 
+- - - X - - - - - - 
+- - - X - - - - - - 
+- - - X - - X - - - 
+X - X X X - - - - X 
+X - - X - X - - - X 
+- - - X - - - - - X 
+X X - X - - - X - X 
+- - - - X - X - X X 
+X X X X X - X X - - 
+
+Next Generation Population: 35
+Generation Number: 74
+- - - - X - - - X X 
+- - X X - - - - X - 
+- - - X X - - - - - 
+- X - - - X - - - - 
+X - - - - - X - X X 
+X X - - - - - - - X 
+- X - X - - - - - X 
+X X - X X X X X - - 
+- - - - X - - - - X 
+X X X - X - X X - - 
+
+Next Generation Population: 46
+Generation Number: 75
+- - X - X - - X X X 
+- - X - - - - X X X 
+- X - X X X - - - - 
+X X X X X X X X X X 
+- - - - - X - X X X 
+- X - - - - - - - X 
+- - - X - - - X - X 
+X X - - - - X X - X 
+- - - - - - - - X - 
+X X X - X X X X X - 
+
+Next Generation Population: 31
+Generation Number: 76
+- X X - - - X - - - 
+- - - - - X - - - X 
+- - - - - - - - - - 
+X - - - - - - - - - 
+- - - X - X - - - - 
+- - X - X - X - - X 
+- - X - - - - X - X 
+X X X - - - X - - X 
+- - X X X - - - - - 
+X X X X X X X - X - 
+
+Next Generation Population: 36
+Generation Number: 77
+- X X - - X X - - - 
+- X - - - X X - - - 
+- - - - - - - - - - 
+- - - - X - - - - - 
+- - X X - X X - - - 
+- X X - X - X X - X 
+X - - - - X - X - X 
+X - - - X X X X X X 
+- - - - - - - X X X 
+X - - - - X X X - - 
+
+Next Generation Population: 26
+Generation Number: 78
+X X X - X - - X - - 
+X X X - X - X - - - 
+- - - - X - - - - - 
+- - X - X - X - - - 
+- - - - - - - - X - 
+X - - - X - - X - X 
+X - - X - - - - - - 
+X - - - X - - - - - 
+X - - - - - - - - X 
+- - - - - X - - - - 
+
+Next Generation Population: 35
+Generation Number: 79
+- - - - X - X X - - 
+- - X - X - X X - - 
+X - X - X - X - - - 
+- - - - X X - X - - 
+- X - X X X X X X X 
+X X - X X - - X - - 
+X X - X - - - - - - 
+X X - X - - - - - - 
+X - - - X - - - - - 
+- - - - - - - - - - 
+
+Next Generation Population: 16
+Generation Number: 80
+- - - - X - - - X - 
+- - X - X - - - - - 
+- - X - - - - - - - 
+X X - - - - - - - X 
+- X - - - - - - - X 
+- - - - - - - X - - 
+- - - - - - - - - - 
+- - - X X - - - - - 
+X X - X - - - - - - 
+- - - - - - - - - - 
+
+Next Generation Population: 25
+Generation Number: 81
+- - - - X X - - - - 
+- X X - X - - - - - 
+X - X X - - - - - - 
+X - - - - - - - X X 
+- X - - - - - - - X 
+- - - - - - - - X - 
+- - - X X - - - - - 
+X X - X X - - - - - 
+X X - X X - - - - - 
+X - - - - - - - - - 
+
+Next Generation Population: 30
+Generation Number: 82
+- X X - X X - - - - 
+X - - - - X - - - - 
+X - X X X - - - X X 
+X - - - - - - - X X 
+X - - - - - - X - X 
+- - - X X - - - X X 
+X X - - - X - - - - 
+- - - - - X - - - - 
+- - - - X - - - - - 
+X X - X - - - - - - 
+
+Next Generation Population: 53
+Generation Number: 83
+X X X X X X X - - - 
+X - - - - X - - X X 
+X - X X X X - X - - 
+X - X X - - - - - - 
+X - - X X - - X - - 
+- X X X X X X X X X 
+X X X X - X X - X - 
+X - - - - X - - - - 
+X X X X X X - - - - 
+X X X X X - - - - - 
+
+Next Generation Population: 24
+Generation Number: 84
+X - X X - - X X X X 
+- - - - - - - X X X 
+X - - - - X X X - - 
+X - - - - X X X - - 
+X - - - - - - - - X 
+- - - - - - - - - X 
+- - - - - - - - X X 
+- - - - - - - - - - 
+- - - - - - - - - - 
+- - - - - X - - - - 
+
+Next Generation Population: 24
+Generation Number: 85
+- X X X - - X - - - 
+X X X - - - - - - X 
+X X - - X - - - - - 
+X X - - X - - X X - 
+X - - - - X X - X X 
+- - - - - - - - - - 
+- - - - - - - - X X 
+- - - - - - - - X - 
+- - - - - - - - - - 
+- - - - - - - - - - 
+
+Next Generation Population: 24
+Generation Number: 86
+- - - X - - - - - - 
+- - - - - X - - - - 
+- - - X X X - X - X 
+- - - X X - - - - - 
+X X - - X X X - X X 
+- - - - - X - X - - 
+- - - - - - - X X X 
+- - - - - - - X X X 
+- - - - - - - - - - 
+- - - - - - - - - - 
+
+Next Generation Population: 20
+Generation Number: 87
+- - - - X - - - - - 
+- - X - - X - - X - 
+- - X - - - X - X - 
+X X - - - - - - - - 
+X X X - - - - - X X 
+X - - - - X - - - - 
+- - - - - - - - - - 
+- - - - - - X - - X 
+- - - - - - - X X - 
+- - - - - - - - - - 
+
+Next Generation Population: 29
+Generation Number: 88
+- - - X X X - - - - 
+- X X - X X X - X X 
+X - X - - X - - X - 
+- - - - - - - X - X 
+- - X - - - - - X X 
+X - - - - - - - X - 
+- - - - - X - - - - 
+- - - - - - X - - X 
+- - - - - - X X X X 
+- - - - - - - X - - 
+
+Next Generation Population: 30
+Generation Number: 89
+- X - - - - - X X X 
+X - - - - - X - X X 
+X - X X - X - - - - 
+- X X - - - - X - X 
+- X - - - - - - - - 
+- X - - - - - X X X 
+- - - - - X X X X - 
+- - - - - - X - - X 
+- - - - - X - - - X 
+- - - - - - - X - - 
+
+Next Generation Population: 29
+Generation Number: 90
+X X - - - - X - - - 
+X - X X X X X - - X 
+X - - X X X - X - X 
+- - - X - - - - X - 
+- - - - - - X - - - 
+X X - - - X - - - X 
+- - - - - X - - - - 
+- - - - X - - - - X 
+- - - - - X - - - X 
+- - - - - - - - X - 
+
+Next Generation Population: 38
+Generation Number: 91
+X - - - - - X X - - 
+- - X - - - - X - X 
+X X - - - - - X - X 
+- - X X - X X - X X 
+X X X - - X X X X - 
+X X - - X X - - - - 
+X - - - - X - - X X 
+- - - - X - - - X X 
+- - - - X - - - - X 
+- - - - - - - - X X 
+
+Next Generation Population: 27
+Generation Number: 92
+- X - - - - X X - - 
+- - X - - - - X - X 
+X - - X X X - - - - 
+- - - X - - - - - - 
+- - - - - - - - - X 
+- - X - - - - - - X 
+X X - X - X - X - - 
+- - - X X - - X - - 
+- - - X X - - X - - 
+- - - - - - - - X X 
+
+Next Generation Population: 41
+Generation Number: 93
+- X X - - - X X - - 
+X - X - - - - X X - 
+- X - X - X X - - - 
+- - X X - - - - - - 
+- - X X - - - - X X 
+X - X X X - X - - X 
+X X - X - X - X - - 
+X - - - - - - X X - 
+- - X - X - X X - X 
+- - - X - - - X X X 
+
+Next Generation Population: 40
+Generation Number: 94
+X - X X - - X - - - 
+X - - X X - - - X - 
+X X - X - X X - - - 
+- - - - - X - - X X 
+- - - - - X - X X X 
+X - - - - - X - - X 
+- - - X - X - X - X 
+X - X - X - - - - X 
+- - X - X X - - - X 
+- - X X X - - X - X 
+
+Next Generation Population: 31
+Generation Number: 95
+X - X - - X - X - - 
+- - - - - - - X - - 
+X X - X - X X - - X 
+X - - - - - - - - - 
+- - - - X X - - - - 
+- - - - - - - - - X 
+X X X X - X - - - X 
+- - X - - - X - - X 
+- - - - - X X - - X 
+- X X - - X - - - X 
+
+Next Generation Population: 44
+Generation Number: 96
+- X - - - - - X X - 
+- - - - - - - X X - 
+X X X - X X X X - - 
+X X - X - - X - - - 
+- - - - X X - - - - 
+X - - - - X - - X X 
+X - - X X X X - - X 
+X - X X X - X X - X 
+- - - - X - - - - X 
+- X X - X X X - X X 
+
+Next Generation Population: 36
+Generation Number: 97
+- - - - - - X - - X 
+- - X X X - - - - - 
+- - - - X - - - X - 
+- - - X - - - X - - 
+- X - X X - - - X X 
+X X - - - - - X X X 
+X - - - - - - - - X 
+X X X - - - X X - X 
+X - - - - - - - - - 
+- X X - X X X X X X 
+
+Next Generation Population: 37
+Generation Number: 98
+- - X - X X - - - - 
+- - X - X - - - X X 
+- - - - X - - X X - 
+- - - - - - - X - X 
+- X - X X - X - - - 
+- - X X - - - X - - 
+- - X - - - - - - X 
+- - X - - - X X - X 
+- - - X X - - - - - 
+X X X X X X X X X X 
+
+Next Generation Population: 38
+Generation Number: 99
+- X X - X X - - X X 
+- X X - - - - - - X 
+- - - X X - X - - - 
+- - X - - X - - - - 
+- X - - X X X - X - 
+- - - - X - X - X - 
+- - - - - - - - - X 
+- X X - X X X X - X 
+X - - - - - - - - - 
+X X - - - X X X X X 
+
+Next Generation Population: 45
+Generation Number: 100
+X - - - X X - - X X 
+X - - - - - - X - X 
+- - - X X - X - - - 
+- X X - - - - X - - 
+- X X X - - X - X X 
+- - - X X - X - X X 
+- X X - - - - - - X 
+X X X X X X X X - X 
+- - X - - - - - - - 
+X X - - - X X X X X 
+
+Next Generation Population: 43
+Generation Number: 101
+X X - - X X X X - X 
+X - - - - - X X - X 
+X X - X X X X - X - 
+X - - - X X - X - X 
+X - - - - - X - - - 
+X - - - X - X - - - 
+- - - - - - - - - X 
+X - - - X X X X - X 
+- - - - - - - - - - 
+X X X - - X X X X X 
+
+Next Generation Population: 35
+Generation Number: 102
+X X - - X - - - - X 
+- - X - - - - - - X 
+- X X X - - - - - - 
+- - - - - - - X - - 
+X X - X - - X - - - 
+X - - - - - X - - - 
+X - - X - - - X - X 
+- - - - X X X X - X 
+- - X X - - - - - - 
+X X X - - X X X X X 
+
+Next Generation Population: 42
+Generation Number: 103
+X X X X - - - - X X 
+- - - - X - - - X X 
+- X - X - - - - X - 
+- - - X - - X X - - 
+X X X - - X X - - - 
+- - X X - X X X X - 
+X - - X - - - X - X 
+- - - - X X - X - X 
+X - - - - - - - - - 
+X - - X - X X X X X 
+
+Next Generation Population: 36
+Generation Number: 104
+X X X X X - - X - - 
+- - - - X - - - - - 
+- - - X - - X - - X 
+- - - X X - - - X - 
+X - - - - - - - X - 
+- - - X - - - - - X 
+- X - X - - - - - X 
+X - - X X X - X - X 
+X X - X - - - - - - 
+X - - - X X X X X X 
+
+Next Generation Population: 49
+Generation Number: 105
+X X X - X X - - - - 
+X X - - X X X X - - 
+- - X - - X - X X X 
+- - X X X X - X X - 
+- - X - X - - X X X 
+X - - X X - - - - X 
+X X - - - X X - - X 
+- - - - - X X - - X 
+- X - - - - - - - - 
+X X - X X X X X X X 
+
+Next Generation Population: 34
+Generation Number: 106
+- - X - - - - X - - 
+- - - - - - - - - X 
+X - X - - - - - - X 
+- - - - - - - - - - 
+- - - - - - X - - X 
+X - - X - - - - - X 
+X X X X - - - X - X 
+- X - - X - X - X X 
+- X - X - - - - - - 
+X X X X X X X X X X 
+
+Next Generation Population: 32
+Generation Number: 107
+- - - - - - - - X - 
+- - X - - - - - X X 
+- X - - - - - - X X 
+- - - - - - - - X X 
+- - - - - - - - X X 
+X - - X X - X - - X 
+- - - - X X X X - - 
+- - - - X X X - X X 
+- - - - - - - - - - 
+X - - - X X X X X X 
+
+Next Generation Population: 21
+Generation Number: 108
+- - - - - - - X X - 
+- X X - - - - - - - 
+- X X - - - - - - - 
+- - - - - - - - - - 
+- - - X X X - - - - 
+- - - X - - - - - X 
+- - - - - - - - - - 
+- - - X - - - - X X 
+- - - X - - - - - - 
+- - - - X X X X X X 
+
+Next Generation Population: 34
+Generation Number: 109
+- X X - - - - X X - 
+X - - X - - - X - - 
+X - X - - - - - - - 
+- X X X - X - - - - 
+- - X X - X - - - - 
+- - X X - - - - - - 
+- - X X - - - - - - 
+- - X X X - - - X X 
+- - X X - - - - - - 
+- - - X X X X X X X 
+
+Next Generation Population: 32
+Generation Number: 110
+X X X X - - X X X - 
+X - - X - - X X X - 
+X - - - X - X - - - 
+X - - - - X X - - - 
+- - - - - X - - - - 
+- - - - - - - - - - 
+- - - - - - - - X X 
+- - - - X - - - X X 
+- X - - - - - - - - 
+- - - X X X X X X X 
+
+Next Generation Population: 29
+Generation Number: 111
+X - - X X X - - - X 
+- - - X X - - - X - 
+X X - X X - - - - - 
+X - - - - - - - - - 
+- - - - X X X - - - 
+- - - - - - - - X X 
+- - - - - - - X - - 
+- - - - - - - X - X 
+- - X - - - - - - - 
+- - - X X X X X X X 
+
+Next Generation Population: 40
+Generation Number: 112
+- - X - - X - - X X 
+- X - - - - - - X X 
+X X - - X - - - - - 
+X X - - - - X - - - 
+- - - - X X X X X X 
+- - - - X X X X X X 
+- - - - - - X X - X 
+- - - - - - X X X - 
+- - X - - - - - - - 
+- - X X X X X X X X 
+
+Next Generation Population: 34
+Generation Number: 113
+- X X - - - - X - - 
+- - - - X X - X - X 
+- - X - - X - X X - 
+- X - X - - - - - X 
+X - - X - - - - - - 
+- - - X - - - - - - 
+- - - - X - - - - X 
+- - - - - X - - X X 
+- X X - - - - - - X 
+- X X X X X X X X X 
+
+Next Generation Population: 43
+Generation Number: 114
+- X X X X X - X - - 
+- - X X X X - - - X 
+- X X - - X - X - - 
+X X - X - - - X X - 
+X X - X X - - - - - 
+- - X X X - - - - - 
+- - - X X X - - - X 
+- X X X X - - - - - 
+X - - - - - - - - - 
+X - - X X X X X - X 
+
+Next Generation Population: 31
+Generation Number: 115
+- X - - - - - - X - 
+X - - - - - - X X - 
+- - - - - X - X - X 
+- - - X - X X X X - 
+- - - - - X - X - - 
+X X - - - - - - - - 
+- - - - - X - - - - 
+X X - - - X - - - - 
+X - - - - - - X X - 
+X - - X X X X X X - 
+
+Next Generation Population: 39
+Generation Number: 116
+X X - - - - - - X X 
+X X - - - - - - - X 
+- - - - - X - - - X 
+- - - - - - - - - X 
+X X X - X X - X X - 
+X X - - X X X - - - 
+- - - - X X X - - - 
+X X - - X X X X X - 
+- - - X - - - - - X 
+X - - X X X - - X - 
+
+Next Generation Population: 34
+Generation Number: 117
+- - X - - - - - X X 
+- X - - - - - - - X 
+X - - - - - - - - X 
+X - X X - - X X - X 
+- - X - - - - X X X 
+- - X - - - - - - - 
+- - - - - - - - X - 
+X X X - - - - X X X 
+- X X - - - - - - X 
+- - X X X X - - X X 
+
+Next Generation Population: 36
+Generation Number: 118
+- X X - - - - - X X 
+X X X - - - - - - X 
+X - X X - - X X - X 
+X - X X - - X - - - 
+- - - - - - - X - X 
+- X X - - - - - - X 
+X - - - - - - - - - 
+X - - X - - - X - X 
+- - - - - X X - - - 
+- - X X X X - - X X 
+
+Next Generation Population: 36
+Generation Number: 119
+- - - X - - - - X X 
+- - - - - - X - - X 
+- - - - X X X X - X 
+X - - X - X - - - X 
+X - - X - - X - - X 
+X X X - - - - - X X 
+X - X - - - - - - X 
+X - - - X X - X X - 
+- - - - - - - - - - 
+- - X X - - X - X X 
+
+Next Generation Population: 42
+Generation Number: 120
+- - - - - - - X X X 
+- - - X X - - - - X 
+- - - X - - - X - X 
+X X X X - - - X - X 
+- - - X X X - X - - 
+- - - - - - - - - - 
+- - X X X X X - - X 
+X X - - X X X X X X 
+- - X - - X X - - X 
+- - X X - - - X X X 
+
+Next Generation Population: 40
+Generation Number: 121
+- - - X X - - X - X 
+- - X X X - X - - X 
+X - - - - - X X - X 
+X X - - - X - X - X 
+X X - X X X - X X - 
+- - - - - - - X - - 
+X - X - - - - - - X 
+X - - - - - - - - - 
+X - X - - - - - - - 
+- X X X X X X X - X 
+
+Next Generation Population: 37
+Generation Number: 122
+- - - - - - X X - X 
+- X X - X - - - - X 
+X - - X X - - X - X 
+- - - X - - - - - X 
+- X X X - X - - - X 
+- - X - X - X X - - 
+X - - - - - - - - - 
+X - X - - - - - - - 
+X - - - - - - X X - 
+X X - X X X X X X - 
+
+Next Generation Population: 45
+Generation Number: 123
+- X X X - X X X - X 
+X X X - X - - X - X 
+X - - - - - - - - X 
+X X - - - - X - - X 
+- X - - - X - X - X 
+X - X - X - X X X - 
+X - X X - - X - - - 
+X - - - - - - X X - 
+- - - X - - - - - X 
+X X X X X X - - X - 
+
+Next Generation Population: 46
+Generation Number: 124
+- - - - - X - X - X 
+- - - - X - - X - X 
+- - X - - - X X - X 
+- X X - - X X X - X 
+- - X X X - - - - X 
+X - X - X - - - X X 
+X - X X X X - - - - 
+X X - X - - X X X X 
+- - - - - X X - - X 
+X X - - X X - - X X 
+
+Next Generation Population: 31
+Generation Number: 125
+- - - - X X - X - X 
+- - - X X - - - - X 
+- - X - X - - - - X 
+- - - - - - - X - X 
+X - - - - - X X - - 
+X - - - - - - - X X 
+- - - - - X - - - - 
+X X - X - - - - - X 
+- - X X - - - - - - 
+X X - - X - X - X X 
+
+Next Generation Population: 36
+Generation Number: 126
+- - - - - X X - - X 
+- - X - - - - - - X 
+- - X - X - - - - X 
+- X - - - - - X - X 
+X X - - - - X - - - 
+X - - - - X - X X X 
+- X X - X - - - - X 
+X X - X - - - - - - 
+- - - - X X - X - - 
+X X - X - X - X X X 
+
+Next Generation Population: 41
+Generation Number: 127
+- - - - - X X - X X 
+- X X - X - - - - X 
+- - X X - - - - - X 
+- - - - - - X X - X 
+- - - - - X - - - - 
+- - X X X X - X - X 
+- - - - X X - X - X 
+X - - X - X X - X - 
+- - - - - X - X - X 
+X X X X - X - X X X 
+
+Next Generation Population: 40
+Generation Number: 128
+- X X X X X X X X X 
+- X - - X - - - - X 
+- - X X X - X X - X 
+- - X - - X X X - X 
+- - X - - - - X - X 
+- - X - - - - X - X 
+- X - - - - - - - X 
+- - - X - - - - - - 
+- - - - - - - - - X 
+X X X X - X - X - X 
+
+Next Generation Population: 37
+Generation Number: 129
+X X - - - - X X - X 
+X - - - - - - - - X 
+- - X - - - - - - X 
+- - - - X X - - - X 
+- - X X - X - X - X 
+- - X - - - X X - X 
+- X - - - - - - X X 
+- - - - - - - - X X 
+X - - - X - X - - X 
+X X X X X - X - - X 
+
+Next Generation Population: 40
+Generation Number: 130
+X X - - - - X X - X 
+X - - - - - X - - X 
+- - - X X X - - - X 
+- X - - - X - - - X 
+- X X - - X - X - X 
+- - - X - X X - - - 
+- X X - - - X - - - 
+X X - - - X - - - - 
+X - - - X - X - - X 
+X X X - X - X - X X 
+
+Next Generation Population: 44
+Generation Number: 131
+X X - - - X X X - X 
+X X - X - - - X - X 
+X - X X - - - - - X 
+X X - - - X - - - X 
+X X X X - - - X - X 
+X - - X - - - - - - 
+- - - X X - X - - - 
+- - X - X - - - - - 
+- - X - X - X - - X 
+X X X - X - X X X X 
+
+Next Generation Population: 36
+Generation Number: 132
+- - - - X X - X - X 
+- - - X - X - X - X 
+- - - X X - X - - X 
+- - - - X - X - - X 
+- - - X - - - - - X 
+X - - - - X X X - - 
+- - - - X - - - - - 
+- X X - X - X - - - 
+X - - - X - X - - X 
+X - X - X - X X - X 
+
+Next Generation Population: 44
+Generation Number: 133
+- - - X - X - X - X 
+- - X - - - - X - X 
+- - X - - - X - - X 
+- - X - X - X - - X 
+- - - X - - - X - X 
+- - - X X X X X X - 
+X X X - X - - X - - 
+X X X - X - X X - - 
+X - X - X - - - - X 
+X X - - X - X X - X 
+
+Next Generation Population: 38
+Generation Number: 134
+- - X X X - - X - X 
+- X X - - X - X - X 
+- - X - - - X - - X 
+- X X - X - X X - X 
+- - - - - - - - - X 
+X - - - - - - - - X 
+- - - - - - - - - - 
+- - - - X - X X X - 
+- - X - X - - - - X 
+X X X X X X X X - X 
+
+Next Generation Population: 37
+Generation Number: 135
+- - - - X X - X - X 
+- - - - X X - X - X 
+X - - - X - - - - X 
+- X X X - - X X - X 
+X - - - - - X - - X 
+- - - - - - - - X X 
+- - - - - X X - - X 
+- - - - X - X X X X 
+X - - - - - - - - X 
+X - - - - X X X - X 
+
+Next Generation Population: 33
+Generation Number: 136
+- - - X - - - X - X 
+- - - - - - - X - X 
+X - - - - - - - - X 
+- X X X X X X X - X 
+X - X - - X X - - - 
+- - - - - - - X - - 
+- - - - X - - - - - 
+- - - - X - X X - - 
+X X - - X - - - - X 
+X - - - - X X X - X 
+
+Next Generation Population: 35
+Generation Number: 137
+- - - - - - X X - X 
+- - - - - - X X - X 
+X - - - - - - - - X 
+- - - - - - - X - X 
+X - X - - - - - X - 
+- - - - X - X - - - 
+- - - X X - - - - - 
+X X - - X - X X X - 
+X X - X X - - - - X 
+X X - - X X X X - X 
+
+Next Generation Population: 36
+Generation Number: 138
+- - - - - X - - - X 
+- - - - - X - X - X 
+- - - - - - - X - X 
+X X - - - - - X - X 
+- X - X - X X - X X 
+- - X - X - - X - - 
+X X X - - - - - X - 
+- - - - - - X X X X 
+- - - - - - - - - X 
+- X X - X X X X - X 
+
+Next Generation Population: 43
+Generation Number: 139
+- - - - X X - - - X 
+- - - - X X - X - X 
+X X - - - - - X - X 
+X X - - X X - - - - 
+- X - X - X - - - X 
+- - - - X - X X - X 
+X - X X - - - - - - 
+X X - - - - X - - X 
+- X X X X - - - - X 
+- X X X X X X X - X 
+
+Next Generation Population: 45
+Generation Number: 140
+- - - X - - - - - X 
+X X - X - X - X - X 
+- - X X - - - X - X 
+- - - X - X - - X X 
+- X X X - - - X - X 
+X - - - X - X X - X 
+X - X X X X - X X X 
+- - - - X X - - X X 
+- - - - - - - X - X 
+X - - - - X X X - X 
+
+Next Generation Population: 26
+Generation Number: 141
+X X - X - - X - - X 
+X X - - - - - X - X 
+X X - - - X - X - - 
+- - - - - - - - - - 
+X X - - - - - - - X 
+X - - - - - - - - - 
+X X X - - - - - - - 
+- - X - - X - - - - 
+- - - - - - - - - X 
+- - - - - X - X - X 
+
+Next Generation Population: 23
+Generation Number: 142
+- - - - - - X X - X 
+- - - - - X - X - X 
+- X - - - - - X X - 
+- - - - - - - - - - 
+X X - - - - - - - - 
+- - X - - - - - - - 
+X - X X - - - - - - 
+X - X - - - - - - - 
+- - - - X X X - - X 
+- - - - - - X - - X 
+
+Next Generation Population: 29
+Generation Number: 143
+- - - - - X - X - X 
+- - - - - X - - - X 
+- - - - - - X X X X 
+- - - - - - - X - - 
+X X X - - - - - - - 
+- - X - - - - - - - 
+X - - X - - - - - - 
+X - X - X - X - - - 
+- - - - X - X X X X 
+- - - - X - X - X X 
+
+Next Generation Population: 31
+Generation Number: 144
+- - - - X X - - - X 
+- - - - X X - - - - 
+- - - - - X X - - X 
+X - X - - - - X - - 
+X - X X - - - - - - 
+- - X X - - - - - - 
+X - - X X X - - - - 
+X X X - X - X - - X 
+- - - - X - - - - - 
+- - - X X - X - - X 
+
+Next Generation Population: 35
+Generation Number: 145
+- - - X - - X - - - 
+- - - X - - - - X X 
+- X - X - X X X X - 
+X - X - X X X - X - 
+X - - - X - - - - - 
+X - - - - X - - - - 
+X - - - - - X - - - 
+X X X - - - - - - - 
+X X X - - - X - X X 
+- - - X X X - - - - 
+
+Next Generation Population: 41
+Generation Number: 146
+- - X X X - - X X X 
+- - - X - - - - - X 
+X X - - - - - - - - 
+X - X - - - - - X - 
+X - - X - - X - - - 
+X X - - X X X - - - 
+- - X - - X - - - - 
+- - - X - X X X X X 
+- - - - - - X X X X 
+X X X X X X X - X - 
+
+Next Generation Population: 34
+Generation Number: 147
+- - X - X - - X - X 
+X - - X X - - X - X 
+X - - X - - - - X X 
+- - X X - - - X - - 
+- - - X - - X - - - 
+X X - - X - - - - - 
+X X X - - - - - - X 
+- - X - - - - - - - 
+X - - - - - - - - - 
+X X X X X - - - X X 
+
+Next Generation Population: 37
+Generation Number: 148
+- X X - X X X X - X 
+X - - - - - X X - - 
+X X - - - - X - - X 
+- - - - X - X X - - 
+X - - X X X X X - - 
+- - - - - X - - - - 
+- - X - - - - - - - 
+- - X - - - - - - - 
+X - - - X - - - X X 
+X X X X X - - - X X 
+
+Next Generation Population: 33
+Generation Number: 149
+X X X X X - - - - - 
+- - X - X - - - - X 
+X X - - - - - - X - 
+- X - - - - - - - - 
+- - - X - - - X - - 
+- - X - - X - - - - 
+- X X X - - - - - - 
+- - X X - - - - X X 
+X - - - X X - X - - 
+X X X - X - - X - X 
+
+Next Generation Population: 41
+Generation Number: 150
+X - - - X X - - - - 
+- - - - X - - - X X 
+X - - - - - - - X X 
+- X X - - - - X X - 
+- X X X X - X - - - 
+- - - - X - X - - - 
+- - - - - - - - X X 
+X - - - - X X X X X 
+X - - - X X - X - X 
+X X X - X X X X X - 
+
+Next Generation Population: 37
+Generation Number: 151
+- - - X X X - - X X 
+X - - X X X - X - - 
+X - X X - - - - - - 
+- - - - X X X - - X 
+X - - - X - X - - - 
+- X X - X - X X X X 
+- - - - X - - - - - 
+X X - - - - - - - - 
+- - X - - - - - - X 
+X X X - - - - - X X 
+
+Next Generation Population: 46
+Generation Number: 152
+- - X - - - - X X X 
+X - - - - X X X - - 
+X X X - - - - X - - 
+X X X - X - X X - - 
+X - X - - - - - - - 
+X X X - X - X X X X 
+- - X X X X X X X - 
+X X X X - - - - - - 
+- - X X - - - - - X 
+X - X - - - - - X X 
+
+Next Generation Population: 25
+Generation Number: 153
+- X - - - X - - - X 
+X - - - - X - - - - 
+- - - - X - - - X - 
+- - - - - X X X - - 
+- - - - X - - - - X 
+X - - - - - - - - X 
+- - - - - - - - - X 
+X - - - - X X X X - 
+- - - - - - - - - X 
+- - X X - - - - X X 
+
+Next Generation Population: 37
+Generation Number: 154
+X X - - X X X - - - 
+X X - - - X - - X X 
+- - - - X - - - X - 
+- - - X - X X X - - 
+- - - - X - X - X X 
+- - - - - - - - - X 
+X - - - - X - - - X 
+- - - - - X X X - - 
+- - X X X X X - - X 
+- - X X - - - - X X 
+
+Next Generation Population: 39
+Generation Number: 155
+- - X - X - X X X X 
+- X - X - - X X X X 
+X - - X - - - - - X 
+- - - X - - - - - X 
+- - - X X - X - X X 
+- - - - X X X - - X 
+- - - - X X - X - X 
+- - X - - - - X - X 
+- X - - - - - - - X 
+- X - - - X - - X X 
+
+Next Generation Population: 36
+Generation Number: 156
+- X X - X - - - - - 
+X X - X - X - - - - 
+X X - X X - X X - X 
+- - - - - X - X - - 
+- - X - - - X - - - 
+- - - - - - - - - X 
+- - - - - - - X - X 
+- X X X X - X X - X 
+X X - - - - X X - - 
+X X - - - - - - X X 
+
+Next Generation Population: 35
+Generation Number: 157
+- - - - X X - - - - 
+- - - - - X - X X - 
+- X - X - - - X - - 
+X X X - X X - X X - 
+- - - - - X X X - - 
+- - - - - - X - - X 
+- X - - X X - X - X 
+- - - X X - - - - X 
+- - - X - X - - - - 
+- X - - - - X X X X 
+
+Next Generation Population: 31
+Generation Number: 158
+- - - - X X - X X - 
+- - X X - X - X X - 
+- - - X - - - - - - 
+X - X - X - - - X - 
+X X - - - - - - - - 
+- - - - - - - - - X 
+- - X - - - - - - X 
+- - X - - - X - X X 
+- - - X - X - - - - 
+- - X - - X X X X X 
+
+Next Generation Population: 41
+Generation Number: 159
+- - X - - X - - - X 
+- - X - - X - - X - 
+- - - - - X - - X - 
+X - X - - - - - - - 
+X X X - - - - - X - 
+X X - - - - - - X X 
+- X X X - - - X - - 
+- X X X X X X X X X 
+- X - X - - - - - - 
+- - X X X X X X X X 
+
+Next Generation Population: 40
+Generation Number: 160
+- X X X X X X - X X 
+- X X - - X X X X - 
+- - X - X X - X X - 
+X - X X - - - X X - 
+- - - - - - - X X - 
+- - - X - - - - - X 
+- - - - - - - - - - 
+- - - - - X - - X X 
+X - - - - - - - - - 
+- X X - X X X X X X 
+
+Next Generation Population: 28
+Generation Number: 161
+X - - - - - - - - X 
+X - - - - - - - - - 
+X - - - - - - - - X 
+- - X X - - - - - X 
+- - - X - - X - - X 
+- - - - - - - X X - 
+- - - - - - - - - - 
+- - - - - - - - X X 
+X - X X - - - - - - 
+X X X X X X X X X X 
+
+Next Generation Population: 37
+Generation Number: 162
+X X - - - - - - - - 
+X X - - - - - - X X 
+X X X X - - - - X X 
+- - X X X - - - - X 
+- - - X - - X - - X 
+- - - - - - X X X X 
+- - - - - - - - - X 
+- X X X - - - - X X 
+X - - - - - - - - - 
+X - - - X X X X X X 
+
+Next Generation Population: 38
+Generation Number: 163
+- - X - - - - - X X 
+- - - X - - - X - - 
+- - - - - - - X - - 
+X - - - X X - X - X 
+- - - X X X X - - - 
+- - - - - X X X - - 
+- X - X - - X - - - 
+X X X X - - - - X X 
+X - X X X - - - - - 
+X - - - X X X X X X 
+
+Next Generation Population: 33
+Generation Number: 164
+- - X X - - - X X X 
+- - X - - - X X - - 
+- - - X X X - X - - 
+- - - - - - - X X - 
+- - - X - - - - X - 
+- - - - - - - X - - 
+- - - X - - X - X X 
+- - - - - X - - X X 
+- - - - - - - - - - 
+X X X - X X X X X X 
+
+Next Generation Population: 39
+Generation Number: 165
+- X X X - - - - - X 
+- X - - - - - - - - 
+- - X X X X - - - - 
+- - X - - - X - X X 
+- - - - - - X - X - 
+- - X X - - X - - X 
+- - - - X X X - - - 
+- - - - - X X X - X 
+X - X X - - - - - - 
+X X X X X X X X X X 
+
+Next Generation Population: 40
+Generation Number: 166
+X X - X - - - - - - 
+X - - - - X - - - - 
+- - X - X X X X X X 
+- X X - X - X - X X 
+- X - X - - X - - - 
+- - X X - - - - X - 
+- - X X X - - - - X 
+- X X - - - - X X - 
+X - - - - - - - - - 
+X - - - X X X X X X 
+
+Next Generation Population: 34
+Generation Number: 167
+X X X - X - - - - - 
+X - X - - - - - - X 
+X - X - - - - - - - 
+X - - - - - - - - X 
+X - - - - X X - - X 
+- - - - - X - - X X 
+- - - - X - - - - X 
+X - - - - - - X X X 
+X - - - X - - - - X 
+X - - - X X X X X X 
+
+Next Generation Population: 36

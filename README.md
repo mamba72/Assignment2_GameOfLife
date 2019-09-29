@@ -18,7 +18,10 @@ Data Structures Game of Life assignment
 6. http://www.cplusplus.com/doc/tutorial/exceptions/
 7. https://stackoverflow.com/questions/21257544/c-wait-for-user-input/21257728
 8. https://stackoverflow.com/questions/158585/how-do-you-add-a-timed-delay-to-a-c-program
-9. 
+9. https://www.tutorialspoint.com/cplusplus/cpp_static_members.htm
+10. http://www.cplusplus.com/reference/fstream/ofstream/open/
+11. https://www.badprog.com/c-errors-warnings-cannot-declare-member-function-static-void-myclassmymethod-to-have-static-linkage
+12. 
 
 # Instructions:
 1. Run ./GameOfLife.out

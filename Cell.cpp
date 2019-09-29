@@ -85,7 +85,6 @@ bool Cell::IsNeighbor(int xCor, int yCor, Cell** &board)
 {
 
 	int coordToCheck[2] = { xCor, yCor };
-	//cout << "\tCoordinates to check: (" << coordToCheck[0] << ", " << coordToCheck[1] << ")\n";
 	//classic is 1
 	if (gameMode == 1)
 	{

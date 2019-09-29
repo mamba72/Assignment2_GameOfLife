@@ -19,6 +19,9 @@ public:
 	void ReadFile(string fileName);
 	bool IsWidthCorrect(string*& fileLines, int lineCount, int width);
 
+	//static functions
+	static void WriteToFile(string fileName, string strToWrite);
+
 	//member vars
 	int height;
 	int width;
