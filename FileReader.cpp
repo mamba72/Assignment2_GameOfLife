@@ -61,6 +61,7 @@ void FileReader::ReadFile(string fileName)
 		throw runtime_error("The file does not follow the correct standard layout.");
 	}
 
+
 	//now read how many cells are in the provided grid
 	int totalPop = 0;
 	for (int i = 2; i < lineCount; ++i)

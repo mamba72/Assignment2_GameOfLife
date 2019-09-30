@@ -21,6 +21,8 @@ bool KeepRunning(GameBoard*& curGen, GameBoard*& nextGen);
 
 //global var
 int stabalizedGens = 0;
+//this will maintain the last 3 generation strings. (to help know if it has stabalized)
+string prevGenStrings[3];
 
 int main(int argc, char** argv)
 {
@@ -215,8 +217,6 @@ int main(int argc, char** argv)
 		cout << "Generation Number: " << generationCounter << endl;
 		if (nextGenChoice == 3)
 		{
-			//outputFile << "Generation Number: " << generationCounter << endl;
-			//outputFile << curBoard->PrintGrid() << endl;
 			string outStr = "Generation Number: " + to_string(generationCounter);
 			FileReader::WriteToFile(outputFileName, outStr);
 			outStr = curBoard->PrintGrid();
@@ -235,20 +235,22 @@ int main(int argc, char** argv)
 		
 		if (nextGenChoice == 3)
 		{
-			//outputFile << "Next Generation Population: " << nextGenPop << endl;
 			string outStr = "Next Generation Population: " + to_string(nextGenPop);
 			FileReader::WriteToFile(outputFileName, outStr);
 		}
 		else if(nextGenChoice == 2 || nextGenChoice == 1)
 			cout << "Next Generation Population: " << nextGenPop << endl;
 
+		//place the last couple generation strings into the array
+		prevGenStrings[generationCounter % 3] = curBoard->PrintGrid();
+		prevGenStrings[(generationCounter + 1) % 3] = nextGen->PrintGrid();
+
+
 		keepRunning = KeepRunning(curBoard, nextGen);
 
 		curBoard->~GameBoard();//deconstruct the previous generation. (because memory reasons)
 		//reassign the variables
 		curBoard = nextGen;
-		//if(nextGenChoice == 1 || nextGenChoice == 2)
-			//cout << "Keep running to next generation: " << keepRunning << endl;
 
 		//this is to wait for user input if they select the option to press enter every time
 		if (nextGenChoice == 2)
@@ -268,12 +270,6 @@ int main(int argc, char** argv)
 	//print the last generation
 	if (nextGenChoice == 3)
 	{
-		/*outputFile << "Generation Number: " << generationCounter << endl;
-		outputFile << curBoard->PrintGrid() << endl;
-
-		outputFile << "This is the last generation.\n";
-
-		outputFile.close();*/
 		string outStr = "Generation Number: " + to_string(generationCounter);
 		FileReader::WriteToFile(outputFileName, outStr);
 		outStr = curBoard->PrintGrid();
@@ -328,6 +324,22 @@ bool KeepRunning(GameBoard*& curGen, GameBoard*& nextGen)
 	}
 	else
 		stabalizedGens = 0;
+
+	//iterate through the prevGenStrings to ensure that we dont have a duplicate
+	//if we have a duplicate, the program has stabilized.
+	for (int i = 0; i < 3; ++i)
+	{
+		for (int j = 0; j < 3; ++j)
+		{
+			//skip this iteratation to make sure we arent comparing the exact same generation.
+			if (i == j)
+				continue;
+			//if it finds 2 generation strings that are equal, then we have a repeating simulation.
+			if (prevGenStrings[i] == prevGenStrings[j])
+				return false;
+		}
+	}
+
 
 	return true;
 }

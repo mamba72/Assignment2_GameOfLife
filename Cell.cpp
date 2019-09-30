@@ -91,7 +91,6 @@ bool Cell::IsNeighbor(int xCor, int yCor, Cell** &board)
 		//if the coord to check is out of bounds, do nothing
 		if (coordToCheck[0] < 0 || coordToCheck[0] >= boardHeight || coordToCheck[1] < 0 || coordToCheck[1] >= boardWidth)
 		{
-			//cout << "Found a corner at coordinates (" << coordToCheck[0] << ", " << coordToCheck[1] << ")" << endl;
 			return false;
 		}
 		else if (board[coordToCheck[0]][coordToCheck[1]].isEmpty == false)
@@ -117,10 +116,11 @@ bool Cell::IsNeighbor(int xCor, int yCor, Cell** &board)
 			else if (coordToCheck[1] >= boardWidth)
 				coordToCheck[1] = 0;
 		}
-		//cout << "\t\tCoordinates to check: " << coordToCheck[0] << ", " << coordToCheck[1] << endl;
-		if(board[coordToCheck[0]][coordToCheck[1]].isEmpty == false)
+		
+		if (board[coordToCheck[0]][coordToCheck[1]].isEmpty == false)
 			return true;
-			
+		else
+			return false;
 	}
 	//mirror
 	else if (gameMode == 3)
@@ -138,7 +138,6 @@ bool Cell::IsNeighbor(int xCor, int yCor, Cell** &board)
 			else if (coordToCheck[1] >= boardWidth)
 				coordToCheck[1] = (boardWidth - 1);
 		}
-		//cout << "\t\tCoordinates to check: " << coordToCheck[0] << ", " << coordToCheck[1] << endl;
 		if (board[coordToCheck[0]][coordToCheck[1]].isEmpty == false)
 			return true;
 	}
@@ -148,7 +147,6 @@ bool Cell::IsNeighbor(int xCor, int yCor, Cell** &board)
 //this function determines if the current cell is against a wall
 bool Cell::IsAgainstWall()
 {
-	//cout << "\tCoordinates: " << coordinates[0] << ", " << coordinates[1] << endl;
 	if (coordinates[0] == 0)
 		return true;
 	else if (coordinates[0] == boardHeight - 1)
