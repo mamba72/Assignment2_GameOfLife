@@ -73,6 +73,7 @@ int Cell::NumNeighbors(Cell** &board, int height, int width)
 	return totalNeighbors;
 }
 
+//essentially the getString function
 string Cell::GetSymbol()
 {
 	if (isEmpty == true)
@@ -81,6 +82,7 @@ string Cell::GetSymbol()
 		return "X";
 }
 
+//returns a boolean telling if the cell with the given coordinates is a valid cell that is also Occupied
 bool Cell::IsNeighbor(int xCor, int yCor, Cell** &board)
 {
 

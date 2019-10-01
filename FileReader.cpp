@@ -53,10 +53,25 @@ void FileReader::ReadFile(string fileName)
 	//ERROR CHECKING. MAKE SURE ITS A NUMBER. IF NOT, THROW EXCEPTION
 	//now that we have all the lines, parse the first two lines into integers
 	//line 1 is height, two is width. Everything after that is part of the grid
-	this->height = stoi((string)fileLines[0]); //parse height. Both functions will throw exceptions if it cannot be parsed
-	this->width = stoi((string)fileLines[1]); //parse width. 
-
-	if (this->height != lineCount - 2 || IsWidthCorrect(fileLines, lineCount, width))
+	try
+	{
+		this->height = stoi((string)fileLines[0]); //parse height. Both functions will throw exceptions if it cannot be parsed
+	}
+	catch (invalid_argument)
+	{
+		throw invalid_argument("The height in the file is not a number.");
+	}
+	try
+	{
+		this->width = stoi((string)fileLines[1]); //parse width. 
+	}
+	catch (invalid_argument)
+	{
+		throw invalid_argument("The width in the file is not a number.");
+	}
+	
+	//check to make sure that the file follows the correct 
+	if (this->height != lineCount - 2 || IsWidthCorrect(fileLines, lineCount, width)==false)
 	{
 		throw runtime_error("The file does not follow the correct standard layout.");
 	}
@@ -119,6 +134,7 @@ bool FileReader::IsWidthCorrect(string* &fileLines, int lineCount, int width)
 	return true;
 }
 
+/*This is a static function that takes in a file name and a string to write to that file.*/
 void FileReader::WriteToFile(string fileName, string strToWrite)
 {
 	ofstream outFile;
