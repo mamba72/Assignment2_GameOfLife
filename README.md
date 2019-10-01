@@ -24,7 +24,7 @@ Data Structures Game of Life assignment
 12. 
 
 #Known Bugs
-1. Doughnut mode doesnt count neighbors properly
+1. None
 
 # Instructions:
 1. Run ./GameOfLife.out

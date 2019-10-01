@@ -165,7 +165,6 @@ int main(int argc, char** argv)
 	{
 		cout << "What would you like the output file to be called?\n";
 		cin >> outputFileName;
-		//outputFile.open(outputFileName);
 
 		try
 		{
