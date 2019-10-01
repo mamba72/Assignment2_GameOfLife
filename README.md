@@ -23,6 +23,9 @@ Data Structures Game of Life assignment
 11. https://www.badprog.com/c-errors-warnings-cannot-declare-member-function-static-void-myclassmymethod-to-have-static-linkage
 12. 
 
+#Known Bugs
+1. Doughnut mode doesnt count neighbors properly
+
 # Instructions:
 1. Run ./GameOfLife.out
 2. Follow on screen prompts.

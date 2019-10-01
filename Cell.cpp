@@ -34,38 +34,38 @@ int Cell::NumNeighbors(Cell** &board, int height, int width)
 {
 	int totalNeighbors = 0;
 		//check straight right
-		if (IsNeighbor(coordinates[0], coordinates[1] + 1, board))
+		if (IsNeighbor(coordinates[0]+1, coordinates[1], board))
 		{
 			totalNeighbors++;
 		}
 		//right and up
-		if (IsNeighbor(coordinates[0] + 1, coordinates[1] + 1, board))
+		if (IsNeighbor(coordinates[0] - 1, coordinates[1], board))
 		{
 			totalNeighbors++;
 		}
 
 		//directly up
-		if (IsNeighbor(coordinates[0] + 1, coordinates[1], board))
+		if (IsNeighbor(coordinates[0], coordinates[1]+1, board))
 			totalNeighbors++;
 
 		//up and left
-		if (IsNeighbor(coordinates[0] + 1, coordinates[1] - 1, board))
+		if (IsNeighbor(coordinates[0], coordinates[1] - 1, board))
 			totalNeighbors++;
 
 		//directly left
-		if (IsNeighbor(coordinates[0], coordinates[1]-1, board))
+		if (IsNeighbor(coordinates[0]-1, coordinates[1]-1, board))
 			totalNeighbors++;
 
 		//left and down
-		if (IsNeighbor(coordinates[0] - 1, coordinates[1] - 1, board));
+		if (IsNeighbor(coordinates[0] + 1, coordinates[1] + 1, board))
 			totalNeighbors++;
 
 		//directly down
-		if (IsNeighbor(coordinates[0]-1, coordinates[1], board))
+		if (IsNeighbor(coordinates[0]-1, coordinates[1]+1, board))
 			totalNeighbors++;
 
 		//right and down
-		if (IsNeighbor(coordinates[0] - 1, coordinates[1] + 1, board))
+		if (IsNeighbor(coordinates[0] + 1, coordinates[1] - 1, board))
 			totalNeighbors++;
 	//}
 	
@@ -107,16 +107,15 @@ bool Cell::IsNeighbor(int xCor, int yCor, Cell** &board)
 			//check the height and adjust as necessary 
 			if (coordToCheck[0] < 0)
 				coordToCheck[0] = (boardHeight - 1);
-			else if (coordToCheck[0] >= boardHeight)
+			if (coordToCheck[0] >= boardHeight)
 				coordToCheck[0] = 0;
 
 			//now check the width and adjust as necessary
 			if (coordToCheck[1] < 0)
 				coordToCheck[1] = (boardWidth - 1);
-			else if (coordToCheck[1] >= boardWidth)
+			if (coordToCheck[1] >= boardWidth)
 				coordToCheck[1] = 0;
 		}
-		
 		if (board[coordToCheck[0]][coordToCheck[1]].isEmpty == false)
 			return true;
 		else
@@ -140,6 +139,8 @@ bool Cell::IsNeighbor(int xCor, int yCor, Cell** &board)
 		}
 		if (board[coordToCheck[0]][coordToCheck[1]].isEmpty == false)
 			return true;
+		else
+			return false;
 	}
 	return false;
 }
@@ -147,14 +148,14 @@ bool Cell::IsNeighbor(int xCor, int yCor, Cell** &board)
 //this function determines if the current cell is against a wall
 bool Cell::IsAgainstWall()
 {
-	if (coordinates[0] == 0)
+	if (coordinates[0] <= 0)
 		return true;
-	else if (coordinates[0] == boardHeight - 1)
+	else if (coordinates[0] >= (boardHeight - 1))
 		return true;
 
-	if (coordinates[1] == 0)
+	if (coordinates[1] <= 0)
 		return true;
-	else if (coordinates[1] == (boardWidth - 1))
+	else if (coordinates[1] >= (boardWidth - 1))
 		return true;
 
 	return false;
